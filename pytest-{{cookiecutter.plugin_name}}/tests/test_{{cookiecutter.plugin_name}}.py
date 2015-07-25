@@ -22,7 +22,7 @@ def test_bar_fixture(testdir):
 
     # make sure that that we get a '0' exit code for the testsuite
     assert result.ret == 0
-    
+
 
 def test_help_message(testdir):
     result = testdir.runpytest(
@@ -30,6 +30,6 @@ def test_help_message(testdir):
     )
     # fnmatch_lines does an assertion internally
     result.stdout.fnmatch_lines([
-        'cat:',
+        '{{cookiecutter.plugin_name}}:',
         '*--foo=DEST_FOO*Set the value for the fixture "bar".',
     ])
