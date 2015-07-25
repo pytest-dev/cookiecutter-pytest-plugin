@@ -34,7 +34,7 @@ Please consult the `pytest`_ docs for more information on hooks at `Pytest Hook 
 License
 -------
 
-Distributed under the terms of the `MIT license`_, Cookiedozer is free and open source software
+Distributed under the terms of the `MIT license`_, Cookiecutter Pytest Plugin is free and open source software
 
 
 Issues
