@@ -11,3 +11,8 @@ def pytest_addoption(parser):
         dest='foo',
         help='alias for --foo'
     )
+
+
+@pytest.fixture
+def bar(request):
+    return request.config.option.foo
