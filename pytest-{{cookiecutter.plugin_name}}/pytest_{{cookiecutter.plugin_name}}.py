@@ -9,6 +9,7 @@ def pytest_addoption(parser):
         '--foo',
         action='store',
         dest='foo',
+        default={{cookiecutter.year}},
         help='Set the value for the fixture "bar".'
     )
 
