@@ -9,7 +9,7 @@ def pytest_addoption(parser):
         '--foo',
         action='store',
         dest='foo',
-        help='alias for --foo'
+        help='Set the value for the fixture "bar".'
     )
 
 
