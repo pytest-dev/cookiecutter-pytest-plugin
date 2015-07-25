@@ -7,7 +7,7 @@ def pytest_addoption(parser):
     group = parser.getgroup('{{cookiecutter.plugin_name}}')
     group.addoption(
         '--foo',
-        action='store_const',
+        action='store',
         dest='foo',
         help='alias for --foo'
     )
