@@ -11,13 +11,13 @@ def test_bar_fixture(testdir):
 
     # run pytest with the following cmd args
     result = testdir.runpytest(
-        '--foo=something',
+        '--foo=europython2015',
         '-v'
     )
 
     # fnmatch_lines does an assertion internally
     result.stdout.fnmatch_lines([
-        '*::test_a PASSED',
+        '*::test_sth PASSED',
     ])
 
     # make sure that that we get a '0' exit code for the testsuite

@@ -8,7 +8,7 @@ def pytest_addoption(parser):
     group.addoption(
         '--foo',
         action='store',
-        dest='foo',
+        dest='dest_foo',
         default={{cookiecutter.year}},
         help='Set the value for the fixture "bar".'
     )
@@ -16,4 +16,4 @@ def pytest_addoption(parser):
 
 @pytest.fixture
 def bar(request):
-    return request.config.option.foo
+    return request.config.option.dest_foo
