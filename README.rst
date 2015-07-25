@@ -6,7 +6,7 @@ Cookiecutter Pytest Plugin
     :target: https://gitter.im/hackebrot/cookiecutter-pytest-plugin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
     :alt: Join Chat on Gitter.im
 
-Minimal `Cookiecutter`_ template for authoring  `Pytest`_ plugins that help you to write better programs.
+Minimal `Cookiecutter`_ template for authoring  `pytest`_ plugins that help you to write better programs.
 
 Features
 --------
