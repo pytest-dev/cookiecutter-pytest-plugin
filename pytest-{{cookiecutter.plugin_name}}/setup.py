@@ -24,11 +24,17 @@ setup(
     long_description=read('README.rst'),
     py_modules=['pytest_{{cookiecutter.plugin_name}}'],
     install_requires=['pytest>={{cookiecutter.pytest_version}}'],
-    classifiers=['Development Status :: 4 - Beta',
-                 'Intended Audience :: Developers',
-                 'Topic :: Software Development :: Testing',
-                 'Programming Language :: Python',
-                 'Operating System :: OS Independent',
-                 'License :: OSI Approved :: MIT License'],
-    entry_points={'pytest11': ['{{cookiecutter.plugin_name}} = pytest_{{cookiecutter.plugin_name}}']},
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
+        'Topic :: Software Development :: Testing',
+        'Programming Language :: Python',
+        'Operating System :: OS Independent',
+        'License :: OSI Approved :: MIT License',
+    ],
+    entry_points={
+        'pytest11': [
+            '{{cookiecutter.plugin_name}} = pytest_{{cookiecutter.plugin_name}}',
+        ],
+    },
 )
