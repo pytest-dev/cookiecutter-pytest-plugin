@@ -33,7 +33,7 @@ Usage
 
 Contributing
 ------------
-Contributions are very welcome. Tests can be run with |tox|_, please ensure
+Contributions are very welcome. Tests can be run with `tox`_, please ensure
 the coverage at least stays the same before you submit a pull request.
 
 License
@@ -53,5 +53,4 @@ If you encounter any problems, please `file an issue`_ along with a detailed des
 .. _`cookiecutter-pytest-plugin`: https://github.com/hackebrot/cookiecutter-pytest-plugin
 .. _`file an issue`: https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}/issues
 .. _`pytest`: https://github.com/pytest-dev/pytest
-.. |tox| replace:: ``tox``{# How to make styled link text http://stackoverflow.com/a/4836544/105043 #}
 .. _`tox`: https://tox.readthedocs.org/en/latest/
