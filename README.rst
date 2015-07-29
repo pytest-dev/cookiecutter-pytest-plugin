@@ -16,7 +16,7 @@ Features
 --------
 
 * Installable `PyPI`_ package featuring a ``setup.py``.
-* Test suite running `pytest`_ that makes sure your plugin is working as expected
+* Test suite running `tox`_ and `pytest`_ that makes sure your plugin is working as expected
 * Comprehensive ``README.rst`` file that contains useful information about your plugin
 
 
@@ -66,3 +66,4 @@ If you encounter any problems, please `file an issue`_ along with a detailed des
 .. _`Submit a Plugin`: https://pytest.org/latest/contributing.html#submit-a-plugin-co-develop-pytest
 .. _`file an issue`: https://github.com/hackebrot/cookiecutter-pytest-plugin/issues
 .. _`pytest`: https://github.com/pytest-dev/pytest
+.. _`tox`: https://tox.readthedocs.org/en/latest/
