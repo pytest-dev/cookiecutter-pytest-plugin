@@ -12,6 +12,9 @@ import pytest
 import shutil
 import subprocess
 
+from cookiecutter.main import cookiecutter
+
+
 TEMPLATE = os.path.realpath('.')
 
 
@@ -30,11 +33,24 @@ def clean_tmp_dir(tmpdir, request):
     request.addfinalizer(remove_project_dir)
 
 
-def test_run_cookiecutter_and_plugin_tests(testdir):
+def test_run_cookiecutter_cli_and_plugin_tests(testdir):
     try:
         subprocess.check_call(['cookiecutter', '--no-input', TEMPLATE])
     except subprocess.CalledProcessError as e:
         pytest.fail(e)
+
+    project_root = 'pytest-foobar'
+    assert os.path.isdir(project_root)
+
+    os.chdir(str(project_root))
+    pip.main(['install', '.'])
+
+    if testdir.runpytest().ret != 0:
+        pytest.fail('Error running the tests of the newly generated plugin')
+
+
+def test_run_cookiecutter_and_plugin_tests(testdir):
+    cookiecutter(TEMPLATE, no_input=True)
 
     project_root = 'pytest-foobar'
     assert os.path.isdir(project_root)
