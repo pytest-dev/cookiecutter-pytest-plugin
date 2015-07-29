@@ -17,7 +17,6 @@ Features
 
 * Installable `PyPI`_ package featuring a ``setup.py``.
 * Test suite running `pytest`_ that makes sure your plugin is working as expected
-* `Sphinx`_ docs that can be used to generate a readable ``html`` documentation
 * Comprehensive ``README.rst`` file that contains useful information about your plugin
 
 
@@ -64,7 +63,6 @@ If you encounter any problems, please `file an issue`_ along with a detailed des
 .. _`MIT License`: http://opensource.org/licenses/MIT
 .. _`PyPI`: https://pypi.python.org/pypi
 .. _`Pytest Hook Reference`: https://pytest.org/latest/plugins.html#well-specified-hooks
-.. _`Sphinx`: http://sphinx-doc.org/
 .. _`Submit a Plugin`: https://pytest.org/latest/contributing.html#submit-a-plugin-co-develop-pytest
 .. _`file an issue`: https://github.com/hackebrot/cookiecutter-pytest-plugin/issues
 .. _`pytest`: https://github.com/pytest-dev/pytest
