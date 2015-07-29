@@ -6,6 +6,10 @@ Cookiecutter Pytest Plugin
     :target: https://gitter.im/hackebrot/cookiecutter-pytest-plugin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
     :alt: Join Chat on Gitter.im
 
+.. image:: https://travis-ci.org/hackebrot/cookiecutter-pytest-plugin.svg?branch=master
+    :target: https://travis-ci.org/hackebrot/cookiecutter-pytest-plugin
+    :alt: See Build Status on Travis CI
+
 Minimal `Cookiecutter`_ template for authoring  `pytest`_ plugins that help you to write better programs.
 
 Features
