@@ -33,6 +33,14 @@ def clean_tmp_dir(tmpdir, request):
     request.addfinalizer(remove_project_dir)
 
 
+def install_plugin_and_run_tests(plugin_dir, test_runner):
+    os.chdir(str(plugin_dir))
+    pip.main(['install', '.'])
+
+    if test_runner().ret != 0:
+        pytest.fail('Error running the tests of the newly generated plugin')
+
+
 def test_run_cookiecutter_cli_and_plugin_tests(testdir):
     try:
         subprocess.check_call(['cookiecutter', '--no-input', TEMPLATE])
@@ -42,11 +50,7 @@ def test_run_cookiecutter_cli_and_plugin_tests(testdir):
     project_root = 'pytest-foobar'
     assert os.path.isdir(project_root)
 
-    os.chdir(str(project_root))
-    pip.main(['install', '.'])
-
-    if testdir.runpytest().ret != 0:
-        pytest.fail('Error running the tests of the newly generated plugin')
+    install_plugin_and_run_tests(project_root, testdir.runpytest)
 
 
 def test_run_cookiecutter_and_plugin_tests(testdir):
@@ -55,8 +59,4 @@ def test_run_cookiecutter_and_plugin_tests(testdir):
     project_root = 'pytest-foobar'
     assert os.path.isdir(project_root)
 
-    os.chdir(str(project_root))
-    pip.main(['install', '.'])
-
-    if testdir.runpytest().ret != 0:
-        pytest.fail('Error running the tests of the newly generated plugin')
+    install_plugin_and_run_tests(project_root, testdir.runpytest)
