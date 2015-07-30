@@ -54,7 +54,7 @@ If you encounter any problems, please `file an issue`_ along with a detailed des
 .. _`Cookiecutter`: https://github.com/audreyr/cookiecutter
 .. _`@hackebrot`: https://github.com/hackebrot
 .. _`MIT License`: http://opensource.org/licenses/MIT
-.. _`cookiecutter-pytest-plugin`: https://github.com/hackebrot/cookiecutter-pytest-plugin
+.. _`cookiecutter-pytest-plugin`: https://github.com/pytest-dev/cookiecutter-pytest-plugin
 .. _`file an issue`: https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}/issues
 .. _`pytest`: https://github.com/pytest-dev/pytest
 .. _`tox`: https://tox.readthedocs.org/en/latest/
