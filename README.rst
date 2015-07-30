@@ -3,11 +3,11 @@ Cookiecutter Pytest Plugin
 =========================
 
 .. image:: https://badges.gitter.im/Join%20Chat.svg
-    :target: https://gitter.im/hackebrot/cookiecutter-pytest-plugin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+    :target: https://gitter.im/pytest-dev/cookiecutter-pytest-plugin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
     :alt: Join Chat on Gitter.im
 
-.. image:: https://travis-ci.org/hackebrot/cookiecutter-pytest-plugin.svg?branch=master
-    :target: https://travis-ci.org/hackebrot/cookiecutter-pytest-plugin
+.. image:: https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin.svg?branch=master
+    :target: https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin
     :alt: See Build Status on Travis CI
 
 Minimal `Cookiecutter`_ template for authoring  `pytest`_ plugins that help you to write better programs.
@@ -25,7 +25,7 @@ Usage
 
 Generate a Pytest plugin project::
 
-    cookiecutter https://github.com/hackebrot/pytest-foo
+    cookiecutter https://github.com/pytest-dev/pytest-foo
 
 
 Requirements to Submit Your Plugin
@@ -64,6 +64,6 @@ If you encounter any problems, please `file an issue`_ along with a detailed des
 .. _`PyPI`: https://pypi.python.org/pypi
 .. _`Pytest Hook Reference`: https://pytest.org/latest/plugins.html#well-specified-hooks
 .. _`Submit a Plugin`: https://pytest.org/latest/contributing.html#submit-a-plugin-co-develop-pytest
-.. _`file an issue`: https://github.com/hackebrot/cookiecutter-pytest-plugin/issues
+.. _`file an issue`: https://github.com/pytest-dev/cookiecutter-pytest-plugin/issues
 .. _`pytest`: https://github.com/pytest-dev/pytest
 .. _`tox`: https://tox.readthedocs.org/en/latest/
