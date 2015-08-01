@@ -15,7 +15,7 @@ This `Pytest`_ plugin was generated with `Cookiecutter`_ along with `@hackebrot`
 Features
 --------
 
-* TOOD
+* TODO
 
 
 Requirements
