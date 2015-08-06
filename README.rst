@@ -10,6 +10,10 @@ Cookiecutter Pytest Plugin
     :target: https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin
     :alt: See Build Status on Travis CI
 
+.. image:: https://readthedocs.org/projects/cookiecutter-pytest-plugin/badge/?version=latest
+        :target: https://readthedocs.org/projects/cookiecutter-pytest-plugin/?badge=latest
+        :alt: Documentation Status
+
 Minimal `Cookiecutter`_ template for authoring  `pytest`_ plugins that help you to write better programs.
 
 Features
