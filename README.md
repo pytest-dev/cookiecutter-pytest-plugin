@@ -11,6 +11,15 @@ Cookiecutter Pytest Plugin
 Minimal [Cookiecutter] template for authoring [pytest] plugins that help
 you to write better programs.
 
+Usage
+=====
+
+Simply install [Cookiecutter] and generate a new Pytest plugin project:
+
+    $ pip install cookiecutter
+    $ cookiecutter https://github.com/pytest-dev/cookiecutter-pytest-plugin
+
+
 Features
 ========
 
@@ -19,13 +28,6 @@ Features
     working as expected
 -   Comprehensive `README.rst` file that contains useful information
     about your plugin
-
-Usage
-=====
-
-Generate a Pytest plugin project:
-
-    cookiecutter https://github.com/pytest-dev/pytest-foo
 
 Requirements to Submit Your Plugin
 ==================================
