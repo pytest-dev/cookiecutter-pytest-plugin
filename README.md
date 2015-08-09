@@ -50,8 +50,11 @@ Features
 - Comprehensive `README.rst` file that contains useful information
   about your plugin
 
-Requirements to Submit Your Plugin to the Pytest Organization
--------------------------------------------------------------
+Requirements to Submit a Plugin
+-------------------------------
+
+If you plan on submitting your plugin to the [pytest-dev organization] you need
+to meet the following requirements:
 
 -   PyPI presence with a setup.py that contains a license, pytest-
     prefixed, version number, authors, short and long description.
@@ -91,6 +94,7 @@ Distributed under the terms of the [MIT license], Cookiecutter Pytest
 Plugin is free and open source software
 
 
+  [pytest-dev organization]: https://github.com/pytest-dev/
   [gitter_badge]: https://badges.gitter.im/Join%20Chat.svg
   [gitter]: https://gitter.im/pytest-dev/cookiecutter-pytest-plugin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge (Join Chat on Gitter.im)
   [travis_badge]: https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin.svg?branch=master
