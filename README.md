@@ -17,7 +17,7 @@ Simply install [Cookiecutter] and generate a new Pytest plugin project:
     $ pip install cookiecutter
     $ cookiecutter https://github.com/pytest-dev/cookiecutter-pytest-plugin
 
-Cookiecutter will ask you for some information regarding your plugin:
+Cookiecutter prompts you for information regarding your plugin:
 
     full_name [Raphael Pierzina]: Andreas Pelme
     email [raphael@hackebrot.de]: andreas@pelme.se
