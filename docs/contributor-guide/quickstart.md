@@ -27,6 +27,6 @@ For additional information regarding docs, please see the [Documentation Guide] 
   [PyPI]: https://pypi.python.org/pypi/cookiecutter/1.0.0
   [Pull Requests]: https://github.com/pytest-dev/cookiecutter-pytest-plugin/pulls
   [issue]: https://github.com/pytest-dev/cookiecutter-pytest-plugin/issues
-  [documentation]: contributor-guide/documentation.md
+  [documentation]: documentation.md
   [Read the Docs]: https://readthedocs.org/projects/cookiecutter-pytest-plugin
   [Documentation Label]: https://github.com/pytest-dev/cookiecutter-pytest-plugin/labels/documentation
