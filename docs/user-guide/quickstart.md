@@ -9,13 +9,17 @@ templates), e.g. creating a Python package project from a Python package project
 
 Cookiecutter is available on [PyPI]. Use ``pip`` to download and install:
 
-    $ pip install cookiecutter
+```no-highlight
+$ pip install cookiecutter
+```
 
 ### Usage
 
 You can generate a new project from a template by using the following command:
 
-    $ cookiecutter https://github.com/pytest-dev/cookiecutter-pytest-plugin
+```no-highlight
+$ cookiecutter https://github.com/pytest-dev/cookiecutter-pytest-plugin
+```
 
 This will not only ``git clone`` the template but also start the generation process.
 
@@ -29,14 +33,16 @@ or markdown formats.
 
 Cookiecutter prompts you for information regarding your plugin based on aforementioned variables:
 
-    full_name [Raphael Pierzina]: Andreas Pelme
-    email [raphael@hackebrot.de]: andreas@pelme.se
-    github_username [hackebrot]: pelme
-    plugin_name [foobar]: awesome
-    short_description [A simple plugin to use with Pytest]:
-    version [0.1.0]:
-    pytest_version [2.7.2]: 2.7.3
-    year [2015]:
+```no-highlight
+full_name [Raphael Pierzina]: Andreas Pelme
+email [raphael@hackebrot.de]: andreas@pelme.se
+github_username [hackebrot]: pelme
+plugin_name [foobar]: awesome
+short_description [A simple plugin to use with Pytest]:
+version [0.1.0]:
+pytest_version [2.7.2]: 2.7.3
+year [2015]:
+```
 
 The values in the square brackets (f.i. ``[foobar]``) are defaults for the according variables.
 
@@ -44,15 +50,17 @@ The values in the square brackets (f.i. ``[foobar]``) are defaults for the accor
 
 Once you answered to the questions, Cookiecutter renders the the project:
 
-    pytest-awesome/
-    ├── LICENSE
-    ├── README.rst
-    ├── pytest_awesome.py
-    ├── setup.py
-    ├── tests
-    │   ├── conftest.py
-    │   └── test_awesome.py
-    └── tox.ini
+```no-highlight
+pytest-awesome/
+├── LICENSE
+├── README.rst
+├── pytest_awesome.py
+├── setup.py
+├── tests
+│   ├── conftest.py
+│   └── test_awesome.py
+└── tox.ini
+```
 
 There you go - you just created a minimal Pytest plugin:
 
