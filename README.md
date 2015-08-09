@@ -14,31 +14,37 @@ Getting Started
 
 Simply install [Cookiecutter] and generate a new Pytest plugin project:
 
-    $ pip install cookiecutter
-    $ cookiecutter https://github.com/pytest-dev/cookiecutter-pytest-plugin
+```no-highlight
+$ pip install cookiecutter
+$ cookiecutter https://github.com/pytest-dev/cookiecutter-pytest-plugin
+```
 
 Cookiecutter prompts you for information regarding your plugin:
 
-    full_name [Raphael Pierzina]: Andreas Pelme
-    email [raphael@hackebrot.de]: andreas@pelme.se
-    github_username [hackebrot]: pelme
-    plugin_name [foobar]: awesome
-    short_description [A simple plugin to use with Pytest]:
-    version [0.1.0]:
-    pytest_version [2.7.2]: 2.7.3
-    year [2015]:
+```no-highlight
+full_name [Raphael Pierzina]: Andreas Pelme
+email [raphael@hackebrot.de]: andreas@pelme.se
+github_username [hackebrot]: pelme
+plugin_name [foobar]: awesome
+short_description [A simple plugin to use with Pytest]:
+version [0.1.0]:
+pytest_version [2.7.2]: 2.7.3
+year [2015]:
+```
 
 There you go - you just created a minimal Pytest plugin:
 
-    pytest-awesome/
-    ├── LICENSE
-    ├── README.rst
-    ├── pytest_awesome.py
-    ├── setup.py
-    ├── tests
-    │   ├── conftest.py
-    │   └── test_awesome.py
-    └── tox.ini
+```no-highlight
+pytest-awesome/
+├── LICENSE
+├── README.rst
+├── pytest_awesome.py
+├── setup.py
+├── tests
+│   ├── conftest.py
+│   └── test_awesome.py
+└── tox.ini
+```
 
 
 Features
