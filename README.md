@@ -1,6 +1,6 @@
-----------------------------
+============================
 Cookiecutter Pytest Plugin
-----------------------------
+============================
 
 [![Join Chat on Gitter.im][gitter_badge]][gitter]
 [![See Build Status on Travis CI][travis_badge]][travis]
@@ -10,7 +10,7 @@ Minimal [Cookiecutter] template for authoring [Pytest] plugins that help
 you to write better programs.
 
 Getting Started
-===============
+---------------
 
 Simply install [Cookiecutter] and generate a new Pytest plugin project:
 
@@ -42,7 +42,7 @@ There you go - you just created a minimal Pytest plugin:
 
 
 Features
-========
+--------
 
 - Installable [PyPI] package featuring a `setup.py`.
 - Test suite running [Tox] and [Pytest] that makes sure your plugin is
@@ -51,7 +51,7 @@ Features
   about your plugin
 
 Requirements to Submit Your Plugin to the Pytest Organization
-=============================================================
+-------------------------------------------------------------
 
 -   PyPI presence with a setup.py that contains a license, pytest-
     prefixed, version number, authors, short and long description.
@@ -66,18 +66,18 @@ Requirements to Submit Your Plugin to the Pytest Organization
 Please see the official guidelines at [Submit a Plugin].
 
 Resources
-=========
+---------
 
 Please consult the [Pytest] docs for more information on hooks at
 [Pytest Hook Reference].
 
 Contribute
-==========
+----------
 
 We welcome you to contribute to this project. Please visit the [documentation] to get started!
 
 Issues
-======
+------
 
 This template has been tested on Mac OS X Yosemite.
 
@@ -85,7 +85,7 @@ If you encounter any problems, please [file an issue] along with a
 detailed description.
 
 License
-=======
+-------
 
 Distributed under the terms of the [MIT license], Cookiecutter Pytest
 Plugin is free and open source software
