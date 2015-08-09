@@ -4,7 +4,7 @@ Cookiecutter Pytest Plugin
 
 [![Join Chat on Gitter.im][gitter_badge]][gitter]
 [![See Build Status on Travis CI][travis_badge]][travis]
-[![Documentation Status][docs_badge]][docs]
+[![Documentation Status][docs_badge]][documentation]
 
 Minimal [Cookiecutter] template for authoring [Pytest] plugins that help
 you to write better programs.
@@ -74,8 +74,7 @@ Please consult the [Pytest] docs for more information on hooks at
 Contribute
 ==========
 
-We welcome you to contribute to this project. Please visit the documentation
-at [docs] to get started!
+We welcome you to contribute to this project. Please visit the [documentation] to get started!
 
 Issues
 ======
@@ -97,7 +96,7 @@ Plugin is free and open source software
   [travis_badge]: https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin.svg?branch=master
   [travis]: https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin (See Build Status on Travis CI)
   [docs_badge]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/badge/?version=latest
-  [docs]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/?badge=latest (Documentation Status)
+  [documentation]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/?badge=latest (Documentation Status)
   [Cookiecutter]: https://github.com/audreyr/cookiecutter
   [Pytest]: https://github.com/pytest-dev/pytest
   [PyPI]: https://pypi.python.org/pypi
