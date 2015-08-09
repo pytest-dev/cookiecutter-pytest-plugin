@@ -21,7 +21,7 @@ Contributor
 
 Do you want to contribute to this project and implement new features or fix bugs?
 
-We warmly invite you to submit PRs and participate actively in the community.
+We warmly welcome you to submit PRs and actively participate in the community.
 
 Please see the [Contributor] guide.
 
