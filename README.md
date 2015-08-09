@@ -44,14 +44,14 @@ There you go - you just created a minimal Pytest plugin:
 Features
 ========
 
--   Installable [PyPI] package featuring a `setup.py`.
--   Test suite running [tox] and [pytest] that makes sure your plugin is
-    working as expected
--   Comprehensive `README.rst` file that contains useful information
-    about your plugin
+- Installable [PyPI] package featuring a `setup.py`.
+- Test suite running [tox] and [pytest] that makes sure your plugin is
+  working as expected
+- Comprehensive `README.rst` file that contains useful information
+  about your plugin
 
-Requirements to Submit Your Plugin
-==================================
+Requirements to Submit Your Plugin to the Pytest Organization
+=============================================================
 
 -   PyPI presence with a setup.py that contains a license, pytest-
     prefixed, version number, authors, short and long description.
@@ -71,11 +71,11 @@ Resources
 Please consult the [pytest] docs for more information on hooks at
 [Pytest Hook Reference].
 
-License
-=======
+Contribute
+==========
 
-Distributed under the terms of the [MIT license], Cookiecutter Pytest
-Plugin is free and open source software
+We welcome you to contribute to this project. Please visit the documentation
+at [docs] to get started!
 
 Issues
 ======
@@ -84,6 +84,13 @@ This template has been tested on Mac OS X Yosemite.
 
 If you encounter any problems, please [file an issue] along with a
 detailed description.
+
+License
+=======
+
+Distributed under the terms of the [MIT license], Cookiecutter Pytest
+Plugin is free and open source software
+
 
   [gitter_badge]: https://badges.gitter.im/Join%20Chat.svg
   [gitter]: https://gitter.im/pytest-dev/cookiecutter-pytest-plugin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge (Join Chat on Gitter.im)
