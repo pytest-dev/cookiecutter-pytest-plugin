@@ -6,7 +6,7 @@ Cookiecutter Pytest Plugin
 [![See Build Status on Travis CI][travis_badge]][travis]
 [![Documentation Status][docs_badge]][docs]
 
-Minimal [Cookiecutter] template for authoring [pytest] plugins that help
+Minimal [Cookiecutter] template for authoring [Pytest] plugins that help
 you to write better programs.
 
 Getting Started
@@ -45,7 +45,7 @@ Features
 ========
 
 - Installable [PyPI] package featuring a `setup.py`.
-- Test suite running [tox] and [pytest] that makes sure your plugin is
+- Test suite running [Tox] and [Pytest] that makes sure your plugin is
   working as expected
 - Comprehensive `README.rst` file that contains useful information
   about your plugin
@@ -55,12 +55,12 @@ Requirements to Submit Your Plugin to the Pytest Organization
 
 -   PyPI presence with a setup.py that contains a license, pytest-
     prefixed, version number, authors, short and long description.
--   a tox.ini for running tests using tox.
+-   a tox.ini for running tests using Tox.
 -   a README describing how to use the plugin and on which platforms
     it runs.
 -   a LICENSE file or equivalent containing the licensing information,
     with matching info in setup.py.
--   an issue tracker unless you rather want to use the core pytest
+-   an issue tracker unless you rather want to use the core Pytest
     issue tracker.
 
 Please see the official guidelines at [Submit a Plugin].
@@ -68,7 +68,7 @@ Please see the official guidelines at [Submit a Plugin].
 Resources
 =========
 
-Please consult the [pytest] docs for more information on hooks at
+Please consult the [Pytest] docs for more information on hooks at
 [Pytest Hook Reference].
 
 Contribute
@@ -99,9 +99,9 @@ Plugin is free and open source software
   [docs_badge]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/badge/?version=latest
   [docs]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/?badge=latest (Documentation Status)
   [Cookiecutter]: https://github.com/audreyr/cookiecutter
-  [pytest]: https://github.com/pytest-dev/pytest
+  [Pytest]: https://github.com/pytest-dev/pytest
   [PyPI]: https://pypi.python.org/pypi
-  [tox]: https://tox.readthedocs.org/en/latest/
+  [Tox]: https://tox.readthedocs.org/en/latest/
   [Submit a Plugin]: https://pytest.org/latest/contributing.html#submit-a-plugin-co-develop-pytest
   [Pytest Hook Reference]: https://pytest.org/latest/plugins.html#well-specified-hooks
   [MIT license]: http://opensource.org/licenses/MIT
