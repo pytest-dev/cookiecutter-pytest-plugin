@@ -2,11 +2,11 @@
 Cookiecutter Pytest Plugin
 ----------------------------
 
-[![Join Chat on Gitter.im]]
+[![Join Chat on Gitter.im](https://badges.gitter.im/Join%20Chat.svg)][gitter]
 
-[![See Build Status on Travis CI]]
+[![See Build Status on Travis CI](https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin.svg?branch=master)][travis]
 
-[![Documentation Status]]
+[![Documentation Status](https://readthedocs.org/projects/cookiecutter-pytest-plugin/badge/?version=latest)][docs]
 
 Minimal [Cookiecutter] template for authoring [pytest] plugins that help
 you to write better programs.
@@ -64,12 +64,9 @@ This template has been tested on Mac OS X Yosemite.
 If you encounter any problems, please [file an issue] along with a
 detailed description.
 
-  [Join Chat on Gitter.im]: https://badges.gitter.im/Join%20Chat.svg
-  [![Join Chat on Gitter.im]]: https://gitter.im/pytest-dev/cookiecutter-pytest-plugin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
-  [See Build Status on Travis CI]: https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin.svg?branch=master
-  [![See Build Status on Travis CI]]: https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin
-  [Documentation Status]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/badge/?version=latest
-  [![Documentation Status]]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/?badge=latest
+  [gitter]: https://gitter.im/pytest-dev/cookiecutter-pytest-plugin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge (Join Chat on Gitter.im)
+  [travis]: https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin (See Build Status on Travis CI)
+  [docs]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/?badge=latest (Documentation Status)
   [Cookiecutter]: https://github.com/audreyr/cookiecutter
   [pytest]: https://github.com/pytest-dev/pytest
   [PyPI]: https://pypi.python.org/pypi
