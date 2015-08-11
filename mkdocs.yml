@@ -5,3 +5,11 @@ site_author: Raphael Pierzina
 theme: readthedocs
 
 repo_url: https://github.com/pytest-dev/cookiecutter-pytest-plugin
+
+pages:
+- Home: index.md
+- User Guide:
+    - Quickstart: user-guide/quickstart.md
+- Contributor Guide:
+    - Quickstart: contributor-guide/quickstart.md
+    - Documentation: contributor-guide/documentation.md
