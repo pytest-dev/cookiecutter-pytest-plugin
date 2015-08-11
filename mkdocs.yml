@@ -1,2 +1,4 @@
 site_name: Cookiecutter Pytest Plugin
 theme: readthedocs
+
+repo_url: https://github.com/pytest-dev/cookiecutter-pytest-plugin
