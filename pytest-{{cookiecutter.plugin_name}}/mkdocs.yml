@@ -1,1 +1,6 @@
-site_name: My Docs
+site_name: pytest-{{cookiecutter.plugin_name}}
+site_description: {{cookiecutter.short_description}}
+
+theme: readthedocs
+
+repo_url: https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}
