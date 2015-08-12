@@ -6,5 +6,6 @@
     "short_description": "A simple plugin to use with Pytest",
     "version": "0.1.0",
     "pytest_version": "2.7.2",
-    "year": "2015"
+    "year": "2015",
+    "docs_tool": "mkdocs"
 }
