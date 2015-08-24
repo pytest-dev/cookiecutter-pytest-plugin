@@ -7,9 +7,17 @@ you may want to create a distribution and submit it to the Python Package Index 
 
 By doing so, enables your users to easily install via ``easy-install`` or ``pip``.
 
+## Python Package Index
+
+Submitting to [PyPI] that includes the following steps:
+
+- Configuring your plugin (which is already covered in this template)
+- Creating a distribution for your project
+- Uploading your Pytest plugin to PyPI
+
 Please see the official [Python Packaging User Guide] for detailed information.
 
-## Requirements to Submit a Plugin
+## Pytest-Dev Organization
 
 If you plan on submitting your plugin to the [pytest-dev organization] you need
 to meet the following requirements:
