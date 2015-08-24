@@ -5,7 +5,7 @@
 [Cookiecutter] is a command-line utility that creates projects from **cookiecutters** (project
 templates), e.g. creating a Python package project from a Python package project template.
 
-### Installation
+## Installation
 
 Cookiecutter is available on [PyPI]. Use ``pip`` to download and install:
 
@@ -13,7 +13,7 @@ Cookiecutter is available on [PyPI]. Use ``pip`` to download and install:
 $ pip install cookiecutter
 ```
 
-### Usage
+## Usage
 
 You can generate a new project from a template by using the following command:
 
@@ -23,7 +23,7 @@ $ cookiecutter https://github.com/pytest-dev/cookiecutter-pytest-plugin
 
 This will not only ``git clone`` the template but also start the generation process.
 
-### Template Variables
+## Template Variables
 
 Each Cookiecutter template uses variables, which are specified in the template, that
 it replaces in all of the directory and file names, but also in text such as source code
@@ -46,7 +46,7 @@ year [2015]:
 
 The values in the square brackets (f.i. ``[foobar]``) are defaults for the according variables.
 
-### Project Generation
+## Project Generation
 
 Once you answered to the questions, Cookiecutter renders the the project:
 
