@@ -10,6 +10,7 @@ pages:
 - Home: index.md
 - User Guide:
     - Quickstart: user-guide/quickstart.md
+    - Publish: user-guide/publish-plugin.md
 - Contributor Guide:
     - Quickstart: contributor-guide/quickstart.md
     - Documentation: contributor-guide/documentation.md
