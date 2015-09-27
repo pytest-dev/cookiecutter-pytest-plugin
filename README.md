@@ -106,7 +106,7 @@ Plugin is free and open source software
   [travis_badge]: https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin.svg?branch=master
   [travis]: https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin (See Build Status on Travis CI)
   [docs_badge]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/badge/?version=latest
-  [documentation]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/?badge=latest (Documentation Status)
+  [documentation]: http://cookiecutter-pytest-plugin.readthedocs.org/en/latest/ (Documentation)
   [Cookiecutter]: https://github.com/audreyr/cookiecutter
   [Pytest]: https://github.com/pytest-dev/pytest
   [PyPI]: https://pypi.python.org/pypi
