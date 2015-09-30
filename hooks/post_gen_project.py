@@ -14,5 +14,18 @@ import os
 logger.info('Moving files for mkdocs.')
 os.rename('mkdocs/mkdocs.yml', 'mkdocs.yml')
 shutil.move('mkdocs', 'docs')
+shutil.rmtree('sphinxdocs')
+
+{% elif cookiecutter.docs_tool == "sphinx" %}
+
+logger.info('Moving files for sphinx.')
+shutil.move('sphinxdocs', 'docs')
+shutil.rmtree('mkdocs')
+
+{% else %}
+
+logger.info('Removing all documentation files')
+shutil.rmtree('mkdocs')
+shutil.rmtree('sphinxdocs')
 
 {% endif %}

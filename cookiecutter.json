@@ -7,5 +7,5 @@
     "version": "0.1.0",
     "pytest_version": "2.7.2",
     "year": "2015",
-    "docs_tool": "mkdocs"
+    "docs_tool": ["mkdocs", "sphinx", "none"]
 }
