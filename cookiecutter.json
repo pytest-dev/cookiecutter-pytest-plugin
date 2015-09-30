@@ -5,7 +5,7 @@
     "plugin_name": "foobar",
     "short_description": "A simple plugin to use with Pytest",
     "version": "0.1.0",
-    "pytest_version": "2.7.2",
+    "pytest_version": "2.8.1",
     "year": "2015",
     "docs_tool": ["mkdocs", "sphinx", "none"]
 }
