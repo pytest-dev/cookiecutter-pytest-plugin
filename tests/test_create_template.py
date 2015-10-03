@@ -7,56 +7,37 @@ test_create_template
 
 
 import os
-import pip
 import pytest
-import shutil
 import subprocess
 
 from cookiecutter.main import cookiecutter
 
-
 TEMPLATE = os.path.realpath('.')
 
 
-@pytest.fixture(autouse=True)
-def clean_tmp_dir(tmpdir, request):
-    """
-    Remove the project directory that is created by cookiecutter during the
-    tests.
-    """
-    tmp_cwd = tmpdir.mkdir('cookiecutter_out')
-    os.chdir(str(tmp_cwd))
-
-    def remove_project_dir():
-        if os.path.isdir('pytest-foobar'):
-            shutil.rmtree('pytest-foobar')
-    request.addfinalizer(remove_project_dir)
+@pytest.fixture
+def output_dir(tmpdir):
+    return str(tmpdir.mkdir('output'))
 
 
-def install_plugin_and_run_tests(plugin_dir, test_runner):
-    os.chdir(str(plugin_dir))
-    pip.main(['install', '.'])
-
-    if test_runner().ret != 0:
-        pytest.fail('Error running the tests of the newly generated plugin')
-
-
-def test_run_cookiecutter_cli_and_plugin_tests(testdir):
+def run_tox(plugin):
+    """Run the tox suite of the newly created plugin."""
     try:
-        subprocess.check_call(['cookiecutter', '--no-input', TEMPLATE])
+        subprocess.check_call([
+            'tox',
+            plugin,
+            '-c', os.path.join(plugin, 'tox.ini'),
+            '-e', 'py'
+        ])
     except subprocess.CalledProcessError as e:
         pytest.fail(e)
 
-    project_root = 'pytest-foobar'
-    assert os.path.isdir(project_root)
 
-    install_plugin_and_run_tests(project_root, testdir.runpytest)
+def test_run_cookiecutter_and_plugin_tests(testdir, output_dir):
+    """Create a new plugin via cookiecutter and run its tests."""
+    cookiecutter(TEMPLATE, no_input=True, output_dir=output_dir)
 
+    new_plugin = os.path.join(output_dir, 'pytest-foobar')
+    assert os.path.isdir(new_plugin)
 
-def test_run_cookiecutter_and_plugin_tests(testdir):
-    cookiecutter(TEMPLATE, no_input=True)
-
-    project_root = 'pytest-foobar'
-    assert os.path.isdir(project_root)
-
-    install_plugin_and_run_tests(project_root, testdir.runpytest)
+    run_tox(new_plugin)
