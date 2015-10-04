@@ -9,6 +9,8 @@ Cookiecutter Pytest Plugin
 Minimal [Cookiecutter] template for authoring [Pytest] plugins that help
 you to write better programs.
 
+> This template uses choice variables and hence requires Cookiecutter v 1.1.0 or higher
+
 Getting Started
 ---------------
 
