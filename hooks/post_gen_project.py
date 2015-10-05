@@ -29,3 +29,7 @@ shutil.rmtree('mkdocs')
 shutil.rmtree('sphinxdocs')
 
 {% endif %}
+
+
+logger.info('Removing jinja2 macros')
+shutil.rmtree('macros')
