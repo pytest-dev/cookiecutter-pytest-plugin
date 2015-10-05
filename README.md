@@ -57,6 +57,7 @@ Features
   working as expected
 - Comprehensive `README.rst` file that contains useful information
   about your plugin
+- Optional documentation with either [Sphinx] or [MkDocs]
 
 Requirements to Submit a Plugin
 -------------------------------
@@ -117,3 +118,5 @@ Plugin is free and open source software
   [Pytest Hook Reference]: https://pytest.org/latest/plugins.html#well-specified-hooks
   [MIT license]: http://opensource.org/licenses/MIT
   [file an issue]: https://github.com/pytest-dev/cookiecutter-pytest-plugin/issues
+  [Sphinx]: http://sphinx-doc.org/
+  [MkDocs]: http://www.mkdocs.org/
