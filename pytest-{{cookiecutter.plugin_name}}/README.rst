@@ -1,5 +1,6 @@
-pytest-{{cookiecutter.plugin_name}}
-===================================
+{%- from "macros/rst" import doc_title, doc_subtitle -%}
+
+{{ doc_title('pytest-' + cookiecutter.plugin_name) }}
 
 .. image:: https://travis-ci.org/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}.svg?branch=master
     :target: https://travis-ci.org/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}
