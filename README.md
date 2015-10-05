@@ -30,8 +30,14 @@ github_username [hackebrot]: pelme
 plugin_name [foobar]: awesome
 short_description [A simple plugin to use with Pytest]:
 version [0.1.0]:
-pytest_version [2.7.2]: 2.7.3
+pytest_version [2.8.1]:
 year [2015]:
+Select docs_tool:
+1 - mkdocs
+2 - sphinx
+3 - none
+Choose from 1, 2, 3 [1]: 1
+INFO:post_gen_project:Moving files for mkdocs.
 ```
 
 There you go - you just created a minimal Pytest plugin:
@@ -40,6 +46,9 @@ There you go - you just created a minimal Pytest plugin:
 pytest-awesome/
 ├── LICENSE
 ├── README.rst
+├── docs
+│   └── index.md
+├── mkdocs.yml
 ├── pytest_awesome.py
 ├── setup.py
 ├── tests
