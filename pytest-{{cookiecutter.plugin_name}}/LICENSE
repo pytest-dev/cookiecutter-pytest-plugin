@@ -23,6 +23,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 {%- elif cookiecutter.license == "BSD-3" -%}
+{#- source: http://opensource.org/licenses/BSD-3-Clause -#}
 Copyright (c) {{cookiecutter.year}}, {{cookiecutter.full_name}}
 All rights reserved.
 
