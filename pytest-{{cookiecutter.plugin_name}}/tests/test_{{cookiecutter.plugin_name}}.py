@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+
 def test_bar_fixture(testdir):
     """Make sure that pytest accepts our fixture."""
 
@@ -52,7 +53,7 @@ def test_hello_ini_setting(testdir):
             assert hello == 'world'
     """)
 
-    result = testdir.runpytest()
+    result = testdir.runpytest('-v')
 
     # fnmatch_lines does an assertion internally
     result.stdout.fnmatch_lines([
