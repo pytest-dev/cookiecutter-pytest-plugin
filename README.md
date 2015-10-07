@@ -67,6 +67,7 @@ Features
 - Comprehensive `README.rst` file that contains useful information
   about your plugin
 - Optional documentation with either [Sphinx] or [MkDocs]
+- Choose from several licenses, such as [MIT], [BSD-3], or [GNU GPL v3.0]
 
 Requirements to Submit a Plugin
 -------------------------------
@@ -129,3 +130,6 @@ Plugin is free and open source software
   [file an issue]: https://github.com/pytest-dev/cookiecutter-pytest-plugin/issues
   [Sphinx]: http://sphinx-doc.org/
   [MkDocs]: http://www.mkdocs.org/
+  [MIT]: http://opensource.org/licenses/MIT
+  [BSD-3]: http://opensource.org/licenses/BSD-3-Clause
+  [GNU GPL v3.0]: http://www.gnu.org/licenses/gpl-3.0.txt
