@@ -113,6 +113,12 @@ This template has been tested on Mac OS X Yosemite.
 If you encounter any problems, please [file an issue] along with a
 detailed description.
 
+Code of Conduct
+---------------
+
+Everyone interacting in the Cookiecutter project's codebases, issue trackers, chat
+rooms, and mailing lists is expected to follow the [PyPA Code of Conduct].
+
 License
 -------
 
@@ -142,3 +148,4 @@ Plugin is free and open source software
   [GNU GPL v3.0]: http://www.gnu.org/licenses/gpl-3.0.txt
   [Travis CI]: https://travis-ci.com/
   [AppVeyor]: http://www.appveyor.com/
+  [PyPA Code of Conduct]: https://www.pypa.io/en/latest/code-of-conduct/
