@@ -37,6 +37,11 @@ Select docs_tool:
 2 - sphinx
 3 - none
 Choose from 1, 2, 3 [1]: 1
+Select license:
+1 - MIT
+2 - BSD-3
+3 - GNU GPL v3.0
+Choose from 1, 2, 3 [1]: 2
 INFO:post_gen_project:Moving files for mkdocs.
 ```
 
