@@ -31,9 +31,9 @@ Requirements
 Installation
 ------------
 
-You can install {{cookiecutter.plugin_name}} via `pip`_ from `PyPI`_::
+You can install "pytest-{{cookiecutter.plugin_name}}" via `pip`_ from `PyPI`_::
 
-    pip install pytest-{{cookiecutter.plugin_name}}
+    $ pip install pytest-{{cookiecutter.plugin_name}}
 
 
 Usage
