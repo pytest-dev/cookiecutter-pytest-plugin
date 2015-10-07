@@ -69,6 +69,7 @@ Features
 - Installable [PyPI] package featuring a `setup.py`.
 - Test suite running [Tox] and [Pytest] that makes sure your plugin is
   working as expected
+- Working example code for a fixture, a cli option, as well as a pytest.ini option
 - Comprehensive `README.rst` file that contains useful information
   about your plugin
 - Optional documentation with either [Sphinx] or [MkDocs]
