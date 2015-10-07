@@ -116,7 +116,7 @@ detailed description.
 Code of Conduct
 ---------------
 
-Everyone interacting in the Cookiecutter project's codebases, issue trackers, chat
+Everyone interacting in the Cookiecutter Pytest Plugin project's codebases, issue trackers, chat
 rooms, and mailing lists is expected to follow the [PyPA Code of Conduct].
 
 License
