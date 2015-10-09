@@ -30,7 +30,13 @@ setup(
         'Topic :: Software Development :: Testing',
         'Programming Language :: Python',
         'Operating System :: OS Independent',
+        {% if cookiecutter.license == "MIT" -%}
         'License :: OSI Approved :: MIT License',
+        {%- elif cookiecutter.license == "BSD-3" -%}
+        'License :: OSI Approved :: BSD License',
+        {%- elif cookiecutter.license == "GNU GPL v3.0" -%}
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+        {%- endif %}
     ],
     entry_points={
         'pytest11': [
