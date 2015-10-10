@@ -18,7 +18,7 @@ setup(
     author_email='{{cookiecutter.email}}',
     maintainer='{{cookiecutter.full_name}}',
     maintainer_email='{{cookiecutter.email}}',
-    license='MIT',
+    license='{{cookiecutter.license}}',
     url='https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}',
     description='{{cookiecutter.short_description}}',
     long_description=read('README.rst'),
