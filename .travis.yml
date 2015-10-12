@@ -13,3 +13,9 @@ script: tox -e $TOX_ENV
 
 install:
     - pip install tox
+
+before_cache:
+  - rm -rf $HOME/.cache/pip/log
+cache:
+  directories:
+    - $HOME/.cache/pip
