@@ -2,14 +2,20 @@
 
 sudo: false
 language: python
-python: 3.5
-env:
-    - TOX_ENV=py27
-    - TOX_ENV=py33
-    - TOX_ENV=py34
-    - TOX_ENV=py35
-
-script: tox -e $TOX_ENV
+python:
+  - "2.7"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+  - "pypy"
 
 install:
-    - pip install tox
+  - pip install tox
+  - "TOX_ENV=${TRAVIS_PYTHON_VERSION/[0-9].[0-9]/py${TRAVIS_PYTHON_VERSION/.}}"
+script: tox -e $TOX_ENV
+
+before_cache:
+  - rm -rf $HOME/.cache/pip/log
+cache:
+  directories:
+    - $HOME/.cache/pip
