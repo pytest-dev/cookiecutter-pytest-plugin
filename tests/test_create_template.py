@@ -33,11 +33,11 @@ def run_tox(plugin):
         pytest.fail(e)
 
 
-def test_run_cookiecutter_and_plugin_tests(testdir, output_dir):
+def test_run_cookiecutter_and_plugin_tests(cookies):
     """Create a new plugin via cookiecutter and run its tests."""
-    cookiecutter(TEMPLATE, no_input=True, output_dir=output_dir)
+    result = cookies.bake()
 
-    new_plugin = os.path.join(output_dir, 'pytest-foobar')
-    assert os.path.isdir(new_plugin)
+    assert result.project.basename == 'pytest-foobar'
+    assert result.project.isdir()
 
-    run_tox(new_plugin)
+    run_tox(str(result.project))
