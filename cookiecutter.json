@@ -8,5 +8,5 @@
     "pytest_version": "2.8.1",
     "year": "2015",
     "docs_tool": ["mkdocs", "sphinx", "none"],
-    "license": ["MIT", "BSD-3", "GNU GPL v3.0"]
+    "license": ["MIT", "BSD-3", "GNU GPL v3.0", "Apache Software License 2.0"]
 }
