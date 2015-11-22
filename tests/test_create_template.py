@@ -11,11 +11,6 @@ import pytest
 import subprocess
 
 
-@pytest.fixture
-def output_dir(tmpdir):
-    return str(tmpdir.mkdir('output'))
-
-
 def run_tox(plugin):
     """Run the tox suite of the newly created plugin."""
     try:
