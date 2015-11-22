@@ -10,10 +10,6 @@ import os
 import pytest
 import subprocess
 
-from cookiecutter.main import cookiecutter
-
-TEMPLATE = os.path.realpath('.')
-
 
 @pytest.fixture
 def output_dir(tmpdir):
