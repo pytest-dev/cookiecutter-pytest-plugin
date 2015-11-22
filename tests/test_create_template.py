@@ -28,6 +28,8 @@ def test_run_cookiecutter_and_plugin_tests(cookies):
     """Create a new plugin via cookiecutter and run its tests."""
     result = cookies.bake()
 
+    assert result.exit_code == 0
+    assert result.exception is None
     assert result.project.basename == 'pytest-foobar'
     assert result.project.isdir()
 
