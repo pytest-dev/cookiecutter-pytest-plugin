@@ -22,7 +22,7 @@ setup(
     url='https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}',
     description='{{cookiecutter.short_description}}',
     long_description=read('README.rst'),
-    py_modules=['pytest_{{cookiecutter.plugin_name}}'],
+    py_modules=['pytest_{{cookiecutter.module_name}}'],
     install_requires=['pytest>={{cookiecutter.pytest_version}}'],
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -50,7 +50,7 @@ setup(
     ],
     entry_points={
         'pytest11': [
-            '{{cookiecutter.plugin_name}} = pytest_{{cookiecutter.plugin_name}}',
+            '{{cookiecutter.plugin_name}} = pytest_{{cookiecutter.module_name}}',
         ],
     },
 )
