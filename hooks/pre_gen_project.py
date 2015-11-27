@@ -8,7 +8,7 @@ import sys
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger('pre_gen_project')
 
-PLUGIN_REGEX = r'^(?!pytest)[_a-zA-Z][_a-zA-Z0-9]+$'
+PLUGIN_REGEX = r'^(?!pytest)[-_a-zA-Z][-_a-zA-Z0-9]+$'
 
 plugin_name = '{{cookiecutter.plugin_name}}'
 
