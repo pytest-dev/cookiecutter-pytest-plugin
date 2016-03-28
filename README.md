@@ -31,7 +31,7 @@ github_username [hackebrot]: pelme
 plugin_name [foobar]: awesome
 short_description [A simple plugin to use with Pytest]:
 version [0.1.0]:
-pytest_version [2.8.1]:
+pytest_version [2.9.1]:
 Select docs_tool:
 1 - mkdocs
 2 - sphinx

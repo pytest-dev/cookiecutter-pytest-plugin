@@ -40,7 +40,7 @@ github_username [hackebrot]: pelme
 plugin_name [foobar]: awesome
 short_description [A simple plugin to use with Pytest]:
 version [0.1.0]:
-pytest_version [2.7.2]: 2.7.3
+pytest_version [2.9.0]: 2.9.1
 ```
 
 The values in the square brackets (f.i. ``[foobar]``) are defaults for the according variables.
