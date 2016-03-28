@@ -125,6 +125,8 @@ License
 Distributed under the terms of the [MIT license], Cookiecutter Pytest
 Plugin is free and open source software
 
+[![OSI certified][osi_certified]][OSI]
+
 
   [pytest-dev organization]: https://github.com/pytest-dev/
   [gitter_badge]: https://badges.gitter.im/Join%20Chat.svg
@@ -151,3 +153,5 @@ Plugin is free and open source software
   [AppVeyor]: http://www.appveyor.com/
   [PyPA Code of Conduct]: https://www.pypa.io/en/latest/code-of-conduct/
   [Shortbread]: https://github.com/audreyr/cookiecutter/releases/tag/1.4.0
+  [osi_certified]: https://opensource.org/trademarks/osi-certified/web/osi-certified-120x100.png
+  [OSI]: https://opensource.org/
