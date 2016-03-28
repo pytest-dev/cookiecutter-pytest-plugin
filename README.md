@@ -9,7 +9,8 @@ Cookiecutter Pytest Plugin
 Minimal [Cookiecutter] template for authoring [Pytest] plugins that help
 you to write better programs.
 
-> This template uses choice variables and hence requires Cookiecutter v 1.1.0 or higher
+> This template requires [Cookiecutter 1.4.0 "Shortbread"][Shortbread] or
+> higher
 
 Getting Started
 ---------------
@@ -150,3 +151,4 @@ Plugin is free and open source software
   [Travis CI]: https://travis-ci.com/
   [AppVeyor]: http://www.appveyor.com/
   [PyPA Code of Conduct]: https://www.pypa.io/en/latest/code-of-conduct/
+  [Shortbread]: https://github.com/audreyr/cookiecutter/releases/tag/1.4.0
