@@ -41,7 +41,6 @@ plugin_name [foobar]: awesome
 short_description [A simple plugin to use with Pytest]:
 version [0.1.0]:
 pytest_version [2.7.2]: 2.7.3
-year [2015]:
 ```
 
 The values in the square brackets (f.i. ``[foobar]``) are defaults for the according variables.

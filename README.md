@@ -32,7 +32,6 @@ plugin_name [foobar]: awesome
 short_description [A simple plugin to use with Pytest]:
 version [0.1.0]:
 pytest_version [2.8.1]:
-year [2015]:
 Select docs_tool:
 1 - mkdocs
 2 - sphinx
