@@ -134,11 +134,11 @@ Plugin is free and open source software
   [travis_badge]: https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin.svg?branch=master
   [travis]: https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin (See Build Status on Travis CI)
   [docs_badge]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/badge/?version=latest
-  [documentation]: http://cookiecutter-pytest-plugin.readthedocs.org/en/latest/ (Documentation)
+  [documentation]: https://cookiecutter-pytest-plugin.readthedocs.io/en/latest/ (Documentation)
   [Cookiecutter]: https://github.com/audreyr/cookiecutter
   [Pytest]: https://github.com/pytest-dev/pytest
   [PyPI]: https://pypi.python.org/pypi
-  [Tox]: https://tox.readthedocs.org/en/latest/
+  [Tox]: https://tox.readthedocs.io/en/latest/
   [Submit a Plugin]: https://pytest.org/latest/contributing.html#submit-a-plugin-co-develop-pytest
   [Pytest Hook Reference]: https://pytest.org/latest/plugins.html#well-specified-hooks
   [MIT license]: http://opensource.org/licenses/MIT
