@@ -38,4 +38,4 @@ Please see the official guidelines at [Submit a Plugin].
   [Submit a Plugin]: https://pytest.org/latest/contributing.html#submit-a-plugin-co-develop-pytest
   [Pytest]: https://github.com/pytest-dev/pytest
   [PyPI]: https://pypi.python.org/pypi
-  [Python Packaging User Guide]: https://python-packaging-user-guide.readthedocs.org/en/latest/distributing.html
+  [Python Packaging User Guide]: https://python-packaging-user-guide.readthedocs.io/en/latest/distributing.html

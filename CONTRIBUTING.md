@@ -7,4 +7,4 @@ helps, and credit will always be given.
 
 Please see the [Contributor Guide] to get started.
 
-[Contributor Guide]: http://cookiecutter-pytest-plugin.readthedocs.org/en/latest/contributor-guide/quickstart/ (Contributor Guide)
+[Contributor Guide]: https://cookiecutter-pytest-plugin.readthedocs.io/en/latest/contributor-guide/quickstart/ (Contributor Guide)
