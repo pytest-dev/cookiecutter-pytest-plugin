@@ -1,4 +1,4 @@
-{#- source: http://opensource.org/licenses/BSD-3-Clause -#}
+{#- source: http://opensource.org/licenses/BSD-3-Clause #}
 Copyright (c) {% now 'utc', '%Y' %}, {{cookiecutter.full_name}}
 All rights reserved.
 
