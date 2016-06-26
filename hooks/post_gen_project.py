@@ -29,3 +29,6 @@ shutil.rmtree('mkdocs')
 shutil.rmtree('sphinxdocs')
 
 {% endif %}
+
+logger.info('Removing all temporary license files')
+shutil.rmtree('licenses')
