@@ -18,12 +18,18 @@ Pull Requests and Patches
 - Omar K. ([@omarkohl])
 - Pedro Algarvio ([@s0undt3ch])
 
-  [@hackebrot]: https://github.com/hackebrot
-  [@adamchainz]: https://github.com/adamchainz
-  [@pelme]: https://github.com/pelme
-  [@nicoddemus]: https://github.com/nicoddemus
-  [@abusalimov]: https://github.com/abusalimov
+Bug Reports and Suggestions
+---------------------------
+
+- Ana Ribeiro ([@RibeiroAna])
+
+  [@RibeiroAna]: https://github.com/RibeiroAna
   [@The-Compiler]: https://github.com/The-Compiler
+  [@abusalimov]: https://github.com/abusalimov
+  [@adamchainz]: https://github.com/adamchainz
+  [@hackebrot]: https://github.com/hackebrot
   [@luzfcb]: https://github.com/luzfcb
+  [@nicoddemus]: https://github.com/nicoddemus
   [@omarkohl]: https://github.com/omarkohl
+  [@pelme]: https://github.com/pelme
   [@s0undt3ch]: https://github.com/s0undt3ch
