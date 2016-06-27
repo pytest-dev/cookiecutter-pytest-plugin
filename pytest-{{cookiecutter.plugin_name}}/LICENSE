@@ -6,4 +6,6 @@
 {%- include 'licenses/GPL-3' %}
 {%- elif cookiecutter.license == "Apache Software License 2.0" -%}
 {%- include 'licenses/Apache-2' %}
+{%- elif cookiecutter.license == "Mozilla Public License 2.0" -%}
+{%- include 'licenses/MPL-2' %}
 {%- endif -%}
