@@ -44,6 +44,10 @@ WORDS = (word + ' ' for word in ZEN.split(' '))
 def pytest_report_teststatus(report):
     if pytest.config.option.{{cookiecutter.plugin_name}} is False:
         return
+
+    if report.when != 'call':
+        return
+
     try:
         word = next(WORDS)
     except StopIteration:
