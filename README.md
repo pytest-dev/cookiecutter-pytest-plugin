@@ -67,14 +67,16 @@ Features
 --------
 
 - Installable [PyPI] package featuring a `setup.py`.
-- Test suite running [Tox] and [Pytest] that makes sure your plugin is
-  working as expected
-- Working example code for a fixture, a cli option, as well as a pytest.ini option
-- Comprehensive `README.rst` file that contains useful information
-  about your plugin
+- Test suite running [Tox] and [Pytest] that makes sure your plugin is working
+  as expected
+- Working example code for a fixture, a cli option, as well as a pytest.ini
+  option
+- Comprehensive `README.rst` file that contains useful information about your
+  plugin
 - Continuous integration configuration for [Travis CI] and [AppVeyor]
 - Optional documentation with either [Sphinx] or [MkDocs]
-- Choose from several licenses, such as [MIT], [BSD-3], [Apache v2.0] or [GNU GPL v3.0]
+- Choose from several licenses, such as [MIT], [BSD-3], [Apache v2.0] or [GNU
+  GPL v3.0]
 
 Requirements to Submit a Plugin
 -------------------------------
@@ -103,7 +105,8 @@ Please consult the [Pytest] docs for more information on hooks at
 Contribute
 ----------
 
-We welcome you to contribute to this project. Please visit the [documentation] to get started!
+We welcome you to contribute to this project. Please visit the [documentation]
+to get started!
 
 Issues
 ------
@@ -116,8 +119,9 @@ detailed description.
 Code of Conduct
 ---------------
 
-Everyone interacting in the Cookiecutter Pytest Plugin project's codebases, issue trackers, chat
-rooms, and mailing lists is expected to follow the [PyPA Code of Conduct].
+Everyone interacting in the Cookiecutter Pytest Plugin project's codebases,
+issue trackers, chat rooms, and mailing lists is expected to follow the [PyPA
+Code of Conduct].
 
 License
 -------
