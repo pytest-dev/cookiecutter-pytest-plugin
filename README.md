@@ -75,8 +75,8 @@ Features
   plugin
 - Continuous integration configuration for [Travis CI] and [AppVeyor]
 - Optional documentation with either [Sphinx] or [MkDocs]
-- Choose from several licenses, such as [MIT], [BSD-3], [Apache v2.0] or [GNU
-  GPL v3.0]
+- Choose from several licenses, such as [MIT], [BSD-3], [Apache v2.0], [GNU GPL
+  v3.0], or [MPL-2]
 
 Requirements to Submit a Plugin
 -------------------------------
@@ -150,6 +150,7 @@ Plugin is free and open source software
   [Sphinx]: http://sphinx-doc.org/
   [MkDocs]: http://www.mkdocs.org/
   [MIT]: http://opensource.org/licenses/MIT
+  [MPL-2]: https://www.mozilla.org/media/MPL/2.0/index.txt
   [BSD-3]: http://opensource.org/licenses/BSD-3-Clause
   [GNU GPL v3.0]: http://www.gnu.org/licenses/gpl-3.0.txt
   [Apache v2.0]: http://www.apache.org/licenses/LICENSE-2.0
