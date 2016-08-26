@@ -1,6 +1,10 @@
 site_name: pytest-{{cookiecutter.plugin_name}}
 site_description: {{cookiecutter.short_description}}
+site_author: {{cookiecutter.full_name}}
 
 theme: readthedocs
 
 repo_url: https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}
+
+pages:
+- Home: index.md
