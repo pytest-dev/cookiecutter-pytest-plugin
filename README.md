@@ -1,6 +1,4 @@
-============================
-Cookiecutter Pytest Plugin
-============================
+# Cookiecutter Pytest Plugin
 
 [![Join Chat on Gitter.im][gitter_badge]][gitter]
 [![See Build Status on Travis CI][travis_badge]][travis]
@@ -12,8 +10,7 @@ you to write better programs.
 > This template requires [Cookiecutter 1.4.0 "Shortbread"][Shortbread] or
 > higher
 
-Getting Started
----------------
+## Getting Started
 
 Simply install [Cookiecutter] and generate a new Pytest plugin project:
 
@@ -63,8 +60,7 @@ pytest-awesome/
 ```
 
 
-Features
---------
+## Features
 
 - Installable [PyPI] package featuring a `setup.py`.
 - Test suite running [Tox] and [Pytest] that makes sure your plugin is working
@@ -78,8 +74,7 @@ Features
 - Choose from several licenses, such as [MIT], [BSD-3], [Apache v2.0], [GNU GPL
   v3.0], or [MPL v2.0]
 
-Requirements to Submit a Plugin
--------------------------------
+## Requirements to Submit a Plugin
 
 If you plan on submitting your plugin to the [pytest-dev organization] you need
 to meet the following requirements:
@@ -96,35 +91,30 @@ to meet the following requirements:
 
 Please see the official guidelines at [Submit a Plugin].
 
-Resources
----------
+## Resources
 
 Please consult the [Pytest] docs for more information on hooks at
 [Pytest Hook Reference].
 
-Contribute
-----------
+## Contribute
 
 We welcome you to contribute to this project. Please visit the [documentation]
 to get started!
 
-Issues
-------
+## Issues
 
 This template has been tested on Mac OS X Yosemite.
 
 If you encounter any problems, please [file an issue] along with a
 detailed description.
 
-Code of Conduct
----------------
+## Code of Conduct
 
 Everyone interacting in the Cookiecutter Pytest Plugin project's codebases,
 issue trackers, chat rooms, and mailing lists is expected to follow the [PyPA
 Code of Conduct].
 
-License
--------
+## License
 
 Distributed under the terms of the [MIT license], Cookiecutter Pytest
 Plugin is free and open source software
