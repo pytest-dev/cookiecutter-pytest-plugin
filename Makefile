@@ -1,21 +1,27 @@
-.PHONY: clean-py clean-build clean-tox
+.DEFAULT_GOAL := help
 
+.PHONY: clean
+clean: clean-tox clean-build clean-pyc ## Remove all file artifacts
+
+.PHONY: clean-tox
+clean-tox: ## Remove tox testing artifacts
+	@echo "+ $@"
+	@rm -rf .tox/
+
+.PHONY: clean-build
+clean-build: ## Remove build artifacts
+	@echo "+ $@"
+	@rm -fr build/
+	@rm -fr dist/
+	@rm -fr *.egg-info
+
+.PHONY: clean-pyc
+clean-pyc: ## Remove Python file artifacts
+	@echo "+ $@"
+	@find . -type f -name "*.py[co]" -delete
+	@find . -type d -name "__pycache__" -delete
+	@find . -name '*~' -delete
+
+.PHONY: help
 help:
-	@echo "clean - remove all file artifacts"
-	@echo "clean-build - remove build artifacts"
-	@echo "clean-py - remove Python file artifacts"
-	@echo "clean-tox - remove tox artifacts"
-
-clean: clean-tox clean-build clean-py
-
-clean-tox:
-	rm -rf .tox/
-
-clean-build:
-	rm -rf build/
-	rm -rf dist/
-	rm -rf *.egg-info
-
-clean-py:
-	find . -type f -name "*.py[co]" -delete
-	find . -type d -name "__pycache__" -delete
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-16s\033[0m %s\n", $$1, $$2}'
