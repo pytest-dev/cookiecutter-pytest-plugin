@@ -22,6 +22,16 @@ clean-pyc: ## Remove Python file artifacts
 	@find . -type d -name "__pycache__" -delete
 	@find . -name '*~' -delete
 
+.PHONY: test
+test: ## Run tests quickly with the default Python
+	@echo "+ $@"
+	@tox -e py
+
+.PHONY: test-all
+test-all: ## Run tests on every Python version with tox
+	@echo "+ $@"
+	@tox
+
 .PHONY: help
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-16s\033[0m %s\n", $$1, $$2}'
