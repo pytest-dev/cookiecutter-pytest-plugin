@@ -32,3 +32,6 @@ shutil.rmtree('sphinxdocs')
 
 logger.info('Removing all temporary license files')
 shutil.rmtree('licenses')
+
+logger.info('Removing jinja2 macros')
+shutil.rmtree('macros')

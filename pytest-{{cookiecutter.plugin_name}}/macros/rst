@@ -1,0 +1,13 @@
+{%- macro doc_title_header(symbol, text) -%}
+{% for _ in text %}{{symbol}}{% endfor %}
+{{text}}
+{% for _ in text %}{{symbol}}{% endfor %}
+{%- endmacro %}
+
+{% macro doc_title(text) -%}
+{{ doc_title_header('=', text) }}
+{%- endmacro %}
+
+{% macro doc_subtitle(text) -%}
+{{ doc_title_header('-', text) }}
+{%- endmacro %}
