@@ -11,6 +11,7 @@ Pull Requests and Patches
 
 - Adam Chainz ([@adamchainz])
 - Andreas Pelme ([@pelme])
+- Benoit Brayer ([@M0dM])
 - Bruno Oliveira ([@nicoddemus])
 - Eldar Abusalimov ([@abusalimov])
 - Florian Bruhin ([@The-Compiler])
@@ -25,6 +26,7 @@ Bug Reports and Suggestions
 - Ana Ribeiro ([@RibeiroAna])
 - Mike Fiedler ([@miketheman])
 
+[@M0dM]: https://github.com/M0dM
 [@RibeiroAna]: https://github.com/RibeiroAna
 [@The-Compiler]: https://github.com/The-Compiler
 [@abusalimov]: https://github.com/abusalimov
