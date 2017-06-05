@@ -23,15 +23,17 @@ Bug Reports and Suggestions
 ---------------------------
 
 - Ana Ribeiro ([@RibeiroAna])
+- Mike Fiedler ([@miketheman])
 
 [@RibeiroAna]: https://github.com/RibeiroAna
 [@The-Compiler]: https://github.com/The-Compiler
 [@abusalimov]: https://github.com/abusalimov
 [@adamchainz]: https://github.com/adamchainz
 [@hackebrot]: https://github.com/hackebrot
+[@ktosiek]: https://github.com/ktosiek
 [@luzfcb]: https://github.com/luzfcb
+[@miketheman]: https://github.com/miketheman
 [@nicoddemus]: https://github.com/nicoddemus
 [@omarkohl]: https://github.com/omarkohl
 [@pelme]: https://github.com/pelme
 [@s0undt3ch]: https://github.com/s0undt3ch
-[@ktosiek]: https://github.com/ktosiek
