@@ -103,8 +103,6 @@ to get started!
 
 ## Issues
 
-This template has been tested on Mac OS X Yosemite.
-
 If you encounter any problems, please [file an issue] along with a
 detailed description.
 
