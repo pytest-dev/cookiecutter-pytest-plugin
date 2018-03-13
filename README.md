@@ -12,7 +12,7 @@ you to write better programs.
 
 ## Getting Started
 
-Simply install [Cookiecutter] and generate a new Pytest plugin project:
+Install [Cookiecutter] and generate a new Pytest plugin project:
 
 ```no-highlight
 $ pip install cookiecutter
