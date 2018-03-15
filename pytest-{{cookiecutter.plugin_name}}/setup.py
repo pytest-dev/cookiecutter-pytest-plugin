@@ -48,6 +48,8 @@ setup(
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         {%- elif cookiecutter.license == "Apache Software License 2.0" -%}
         'License :: OSI Approved :: Apache Software License',
+        {%- elif cookiecutter.license == "Mozilla Public License 2.0" -%}
+        'License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)',
         {%- endif %}
     ],
     entry_points={
