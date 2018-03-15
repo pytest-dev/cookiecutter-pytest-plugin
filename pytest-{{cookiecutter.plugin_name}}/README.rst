@@ -2,6 +2,14 @@
 
 {{ doc_title('pytest-' + cookiecutter.plugin_name) }}
 
+.. image:: http://img.shields.io/pypi/v/pytest-{{cookiecutter.plugin_name}}.svg
+    :target: https://pypi.python.org/pypi/pytest-{{cookiecutter.plugin_name}}
+    :alt: PyPI version
+
+.. image:: https://img.shields.io/pypi/pyversions/pytest-{{cookiecutter.plugin_name}}.svg
+    :target: https://pypi.python.org/pypi/pytest-{{cookiecutter.plugin_name}}
+    :alt: Python versions
+
 .. image:: https://travis-ci.org/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}.svg?branch=master
     :target: https://travis-ci.org/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}
     :alt: See Build Status on Travis CI
