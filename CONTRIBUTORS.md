@@ -16,6 +16,7 @@ Pull Requests and Patches
 - Eldar Abusalimov ([@abusalimov])
 - Florian Bruhin ([@The-Compiler])
 - Fábio C. Barrionuevo da Luz ([@luzfcb])
+- Hugo ([@hugovk])
 - Omar K. ([@omarkohl])
 - Pedro Algarvio ([@s0undt3ch])
 - Tomasz Kontusz ([@ktosiek])
@@ -32,6 +33,7 @@ Bug Reports and Suggestions
 [@abusalimov]: https://github.com/abusalimov
 [@adamchainz]: https://github.com/adamchainz
 [@hackebrot]: https://github.com/hackebrot
+[@hugovk]: https://github.com/hugovk
 [@ktosiek]: https://github.com/ktosiek
 [@luzfcb]: https://github.com/luzfcb
 [@miketheman]: https://github.com/miketheman
