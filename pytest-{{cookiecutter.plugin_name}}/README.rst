@@ -2,7 +2,7 @@
 
 {{ doc_title('pytest-' + cookiecutter.plugin_name) }}
 
-.. image:: http://img.shields.io/pypi/v/pytest-{{cookiecutter.plugin_name}}.svg
+.. image:: https://img.shields.io/pypi/v/pytest-{{cookiecutter.plugin_name}}.svg
     :target: https://pypi.python.org/pypi/pytest-{{cookiecutter.plugin_name}}
     :alt: PyPI version
 
