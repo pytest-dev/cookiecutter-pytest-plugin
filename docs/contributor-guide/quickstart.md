@@ -21,7 +21,7 @@ One of the contributors will add a [Documentation Label] and review your changes
 
 The same applies to project documentation which is hosted at [Read the Docs].
 
-For additional information regarding docs, please see the [Documentation Guide] [documentation].
+For additional information regarding docs, please see the [Documentation Guide][documentation].
 
   [Pull Requests]: https://github.com/pytest-dev/cookiecutter-pytest-plugin/pulls
   [issue]: https://github.com/pytest-dev/cookiecutter-pytest-plugin/issues
