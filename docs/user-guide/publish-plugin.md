@@ -24,7 +24,7 @@ to meet the following requirements:
 
 -   PyPI presence with a setup.py that contains a license, pytest-
     prefixed, version number, authors, short and long description.
--   a tox.ini for running tests using Tox.
+-   a tox.ini for running tests using tox.
 -   a README describing how to use the plugin and on which platforms
     it runs.
 -   a LICENSE file or equivalent containing the licensing information,

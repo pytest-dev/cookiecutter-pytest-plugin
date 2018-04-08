@@ -63,7 +63,7 @@ pytest-awesome/
 ## Features
 
 - Installable [PyPI] package featuring a `setup.py`.
-- Test suite running [Tox] and [Pytest] that makes sure your plugin is working
+- Test suite running [tox] and [Pytest] that makes sure your plugin is working
   as expected
 - Working example code for a fixture, a cli option, as well as a pytest.ini
   option
@@ -81,7 +81,7 @@ to meet the following requirements:
 
 -   PyPI presence with a setup.py that contains a license, pytest-
     prefixed, version number, authors, short and long description.
--   a tox.ini for running tests using Tox.
+-   a tox.ini for running tests using tox.
 -   a README describing how to use the plugin and on which platforms
     it runs.
 -   a LICENSE file or equivalent containing the licensing information,
@@ -130,7 +130,7 @@ Plugin is free and open source software
   [Cookiecutter]: https://github.com/audreyr/cookiecutter
   [Pytest]: https://github.com/pytest-dev/pytest
   [PyPI]: https://pypi.org/project
-  [Tox]: https://tox.readthedocs.io/en/latest/
+  [tox]: https://tox.readthedocs.io/en/latest/
   [Submit a Plugin]: https://docs.pytest.org/en/latest/contributing.html#submitting-plugins-to-pytest-dev
   [Pytest Hook Reference]: https://docs.pytest.org/en/latest/writing_plugins.html#pytest-hook-reference
   [MIT license]: http://opensource.org/licenses/MIT
