@@ -3,11 +3,11 @@
 {{ doc_title('pytest-' + cookiecutter.plugin_name) }}
 
 .. image:: https://img.shields.io/pypi/v/pytest-{{cookiecutter.plugin_name}}.svg
-    :target: https://pypi.python.org/pypi/pytest-{{cookiecutter.plugin_name}}
+    :target: https://pypi.org/project/pytest-{{cookiecutter.plugin_name}}
     :alt: PyPI version
 
 .. image:: https://img.shields.io/pypi/pyversions/pytest-{{cookiecutter.plugin_name}}.svg
-    :target: https://pypi.python.org/pypi/pytest-{{cookiecutter.plugin_name}}
+    :target: https://pypi.org/project/pytest-{{cookiecutter.plugin_name}}
     :alt: Python versions
 
 .. image:: https://travis-ci.org/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}.svg?branch=master
@@ -76,5 +76,5 @@ If you encounter any problems, please `file an issue`_ along with a detailed des
 .. _`file an issue`: https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}/issues
 .. _`pytest`: https://github.com/pytest-dev/pytest
 .. _`tox`: https://tox.readthedocs.io/en/latest/
-.. _`pip`: https://pypi.python.org/pypi/pip/
-.. _`PyPI`: https://pypi.python.org/pypi
+.. _`pip`: https://pypi.org/project/pip/
+.. _`PyPI`: https://pypi.org/project

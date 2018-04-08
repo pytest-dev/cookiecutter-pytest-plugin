@@ -129,7 +129,7 @@ Plugin is free and open source software
   [documentation]: https://cookiecutter-pytest-plugin.readthedocs.io/en/latest/ (Documentation)
   [Cookiecutter]: https://github.com/audreyr/cookiecutter
   [Pytest]: https://github.com/pytest-dev/pytest
-  [PyPI]: https://pypi.python.org/pypi
+  [PyPI]: https://pypi.org/project
   [Tox]: https://tox.readthedocs.io/en/latest/
   [Submit a Plugin]: https://docs.pytest.org/en/latest/contributing.html#submitting-plugins-to-pytest-dev
   [Pytest Hook Reference]: https://docs.pytest.org/en/latest/writing_plugins.html#pytest-hook-reference

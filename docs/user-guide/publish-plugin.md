@@ -37,5 +37,5 @@ Please see the official guidelines at [Submit a Plugin].
   [pytest-dev organization]: https://github.com/pytest-dev/
   [Submit a Plugin]: https://pytest.org/latest/contributing.html#submit-a-plugin-co-develop-pytest
   [Pytest]: https://github.com/pytest-dev/pytest
-  [PyPI]: https://pypi.python.org/pypi
+  [PyPI]: https://pypi.org/project
   [Python Packaging User Guide]: https://python-packaging-user-guide.readthedocs.io/en/latest/distributing.html
