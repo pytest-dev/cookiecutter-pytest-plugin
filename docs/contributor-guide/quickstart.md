@@ -21,10 +21,8 @@ One of the contributors will add a [Documentation Label] and review your changes
 
 The same applies to project documentation which is hosted at [Read the Docs].
 
-For additional information regarding docs, please see the [Documentation Guide] [documentation].
+For additional information regarding docs, please see the [Documentation Guide][documentation].
 
-  [Cookiecutter]: https://github.com/audreyr/cookiecutter
-  [PyPI]: https://pypi.python.org/pypi/cookiecutter/1.0.0
   [Pull Requests]: https://github.com/pytest-dev/cookiecutter-pytest-plugin/pulls
   [issue]: https://github.com/pytest-dev/cookiecutter-pytest-plugin/issues
   [documentation]: documentation.md

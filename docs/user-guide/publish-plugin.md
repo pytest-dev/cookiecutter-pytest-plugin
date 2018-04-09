@@ -24,7 +24,7 @@ to meet the following requirements:
 
 -   PyPI presence with a setup.py that contains a license, pytest-
     prefixed, version number, authors, short and long description.
--   a tox.ini for running tests using Tox.
+-   a tox.ini for running tests using tox.
 -   a README describing how to use the plugin and on which platforms
     it runs.
 -   a LICENSE file or equivalent containing the licensing information,
@@ -37,5 +37,5 @@ Please see the official guidelines at [Submit a Plugin].
   [pytest-dev organization]: https://github.com/pytest-dev/
   [Submit a Plugin]: https://pytest.org/latest/contributing.html#submit-a-plugin-co-develop-pytest
   [Pytest]: https://github.com/pytest-dev/pytest
-  [PyPI]: https://pypi.python.org/pypi
+  [PyPI]: https://pypi.org/project
   [Python Packaging User Guide]: https://python-packaging-user-guide.readthedocs.io/en/latest/distributing.html
