@@ -64,4 +64,4 @@ pytest-awesome/
 There you go - you just created a minimal Pytest plugin:
 
   [Cookiecutter]: https://github.com/audreyr/cookiecutter
-  [PyPI]: https://pypi.org/project/cookiecutter/1.0.0
+  [PyPI]: https://pypi.org/project/cookiecutter
