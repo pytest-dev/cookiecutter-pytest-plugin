@@ -6,7 +6,7 @@
     "module_name": "{{ cookiecutter.plugin_name|lower|replace('-', '_') }}",
     "short_description": "A simple plugin to use with pytest",
     "version": "0.1.0",
-    "pytest_version": "3.1.1",
+    "pytest_version": "3.5.0",
     "docs_tool": ["mkdocs", "sphinx", "none"],
     "license": [
         "MIT",
