@@ -7,7 +7,11 @@
     "short_description": "A simple plugin to use with pytest",
     "version": "0.1.0",
     "pytest_version": "3.5.0",
-    "docs_tool": ["mkdocs", "sphinx", "none"],
+    "docs_tool": [
+        "mkdocs",
+        "sphinx",
+        "none"
+    ],
     "license": [
         "MIT",
         "BSD-3",
