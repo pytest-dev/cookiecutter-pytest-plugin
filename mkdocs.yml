@@ -1,5 +1,5 @@
-site_name: Cookiecutter Pytest Plugin
-site_description: Minimal Cookiecutter template for authoring Pytest plugins.
+site_name: cookiecutter-pytest-plugin
+site_description: Minimal Cookiecutter template for authoring pytest plugins.
 site_author: Raphael Pierzina
 
 theme: readthedocs

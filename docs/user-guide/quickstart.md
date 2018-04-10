@@ -38,7 +38,7 @@ full_name [Raphael Pierzina]: Andreas Pelme
 email [raphael@hackebrot.de]: andreas@pelme.se
 github_username [hackebrot]: pelme
 plugin_name [foobar]: awesome
-short_description [A simple plugin to use with Pytest]:
+short_description [A simple plugin to use with pytest]:
 version [0.1.0]:
 pytest_version [2.9.0]: 2.9.1
 ```
@@ -61,7 +61,7 @@ pytest-awesome/
 └── tox.ini
 ```
 
-There you go - you just created a minimal Pytest plugin:
+There you go - you just created a minimal pytest plugin:
 
   [Cookiecutter]: https://github.com/audreyr/cookiecutter
   [PyPI]: https://pypi.org/project/cookiecutter

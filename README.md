@@ -1,10 +1,10 @@
-# Cookiecutter Pytest Plugin
+# cookiecutter-pytest-plugin
 
 [![Join Chat on Gitter.im][gitter_badge]][gitter]
 [![See Build Status on Travis CI][travis_badge]][travis]
 [![Documentation Status][docs_badge]][documentation]
 
-Minimal [Cookiecutter] template for authoring [Pytest] plugins that help
+Minimal [Cookiecutter] template for authoring [pytest] plugins that help
 you to write better programs.
 
 > This template requires [Cookiecutter 1.4.0 "Shortbread"][Shortbread] or
@@ -12,7 +12,7 @@ you to write better programs.
 
 ## Getting Started
 
-Install [Cookiecutter] and generate a new Pytest plugin project:
+Install [Cookiecutter] and generate a new pytest plugin project:
 
 ```no-highlight
 $ pip install cookiecutter
@@ -26,7 +26,7 @@ full_name [Raphael Pierzina]: Andreas Pelme
 email [raphael@hackebrot.de]: andreas@pelme.se
 github_username [hackebrot]: pelme
 plugin_name [foobar]: awesome
-short_description [A simple plugin to use with Pytest]:
+short_description [A simple plugin to use with pytest]:
 version [0.1.0]:
 pytest_version [2.9.1]:
 Select docs_tool:
@@ -42,7 +42,7 @@ Choose from 1, 2, 3 [1]: 2
 INFO:post_gen_project:Moving files for mkdocs.
 ```
 
-There you go - you just created a minimal Pytest plugin:
+There you go - you just created a minimal pytest plugin:
 
 ```no-highlight
 pytest-awesome/
@@ -63,7 +63,7 @@ pytest-awesome/
 ## Features
 
 - Installable [PyPI] package featuring a `setup.py`.
-- Test suite running [tox] and [Pytest] that makes sure your plugin is working
+- Test suite running [tox] and [pytest] that makes sure your plugin is working
   as expected
 - Working example code for a fixture, a cli option, as well as a pytest.ini
   option
@@ -86,15 +86,15 @@ to meet the following requirements:
     it runs.
 -   a LICENSE file or equivalent containing the licensing information,
     with matching info in setup.py.
--   an issue tracker unless you rather want to use the core Pytest
+-   an issue tracker unless you rather want to use the core pytest
     issue tracker.
 
 Please see the official guidelines at [Submit a Plugin].
 
 ## Resources
 
-Please consult the [Pytest] docs for more information on hooks at
-[Pytest Hook Reference].
+Please consult the [pytest] docs for more information on hooks at
+[pytest hook reference].
 
 ## Contribute
 
@@ -108,13 +108,13 @@ detailed description.
 
 ## Code of Conduct
 
-Everyone interacting in the Cookiecutter Pytest Plugin project's codebases,
+Everyone interacting in the Cookiecutter pytest Plugin project's codebases,
 issue trackers, chat rooms, and mailing lists is expected to follow the [PyPA
 Code of Conduct].
 
 ## License
 
-Distributed under the terms of the [MIT license], Cookiecutter Pytest
+Distributed under the terms of the [MIT license], Cookiecutter pytest
 Plugin is free and open source software
 
 [![OSI certified][osi_certified]][OSI]
@@ -128,11 +128,11 @@ Plugin is free and open source software
   [docs_badge]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/badge/?version=latest
   [documentation]: https://cookiecutter-pytest-plugin.readthedocs.io/en/latest/ (Documentation)
   [Cookiecutter]: https://github.com/audreyr/cookiecutter
-  [Pytest]: https://github.com/pytest-dev/pytest
+  [pytest]: https://github.com/pytest-dev/pytest
   [PyPI]: https://pypi.org/project
   [tox]: https://tox.readthedocs.io/en/latest/
   [Submit a Plugin]: https://docs.pytest.org/en/latest/contributing.html#submitting-plugins-to-pytest-dev
-  [Pytest Hook Reference]: https://docs.pytest.org/en/latest/writing_plugins.html#pytest-hook-reference
+  [pytest hook reference]: https://docs.pytest.org/en/latest/writing_plugins.html#pytest-hook-reference
   [MIT license]: http://opensource.org/licenses/MIT
   [file an issue]: https://github.com/pytest-dev/cookiecutter-pytest-plugin/issues
   [Sphinx]: http://sphinx-doc.org/

@@ -1,11 +1,13 @@
 # Publish a Plugin
 
-There are several ways to publish a [Pytest] plugin.
+There are several ways to publish a [pytest] plugin.
 
-Essentially Pytest plugins are not different from any other Python Package, so
-you may want to create a distribution and submit it to the Python Package Index ([PyPI]).
+Essentially pytest plugins are not different from any other Python Package, so
+you may want to create a distribution and submit it to the Python Package Index
+([PyPI]).
 
-By doing so, enables your users to easily install via ``easy-install`` or ``pip``.
+By doing so, enables your users to easily install via ``easy-install`` or
+``pip``.
 
 ## Python Package Index
 
@@ -13,11 +15,11 @@ Submitting to [PyPI] that includes the following steps:
 
 - Configuring your plugin (which is already covered in this template)
 - Creating a distribution for your project
-- Uploading your Pytest plugin to PyPI
+- Uploading your pytest plugin to PyPI
 
 Please see the official [Python Packaging User Guide] for detailed information.
 
-## Pytest-Dev Organization
+## pytest-dev Organization
 
 If you plan on submitting your plugin to the [pytest-dev organization] you need
 to meet the following requirements:
@@ -29,13 +31,13 @@ to meet the following requirements:
     it runs.
 -   a LICENSE file or equivalent containing the licensing information,
     with matching info in setup.py.
--   an issue tracker unless you rather want to use the core Pytest
+-   an issue tracker unless you rather want to use the core pytest
     issue tracker.
 
 Please see the official guidelines at [Submit a Plugin].
 
   [pytest-dev organization]: https://github.com/pytest-dev/
   [Submit a Plugin]: https://pytest.org/latest/contributing.html#submit-a-plugin-co-develop-pytest
-  [Pytest]: https://github.com/pytest-dev/pytest
+  [pytest]: https://github.com/pytest-dev/pytest
   [PyPI]: https://pypi.org/project
   [Python Packaging User Guide]: https://python-packaging-user-guide.readthedocs.io/en/latest/distributing.html
