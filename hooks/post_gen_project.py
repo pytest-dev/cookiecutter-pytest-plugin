@@ -29,21 +29,11 @@ def move_doc_files(which):
             os.unlink(dst_path)
         os.rename(src_path, dst_path)
 
-{% if cookiecutter.docs_tool == "mkdocs" %}
 
-move_doc_files("mkdocs")
+def tidy_up():
+    for dir in [DOC_SOURCES, 'licenses', 'macros']:
+        logger.info("Remove temporary folder: %s" % dir)
+        shutil.rmtree(dir)
 
-{% elif cookiecutter.docs_tool == "sphinx" %}
-
-move_doc_files("sphinx")
-
-{% endif %}
-
-logger.info("Removing all temporary documentation sources")
-shutil.rmtree(DOC_SOURCES)
-
-logger.info('Removing all temporary license files')
-shutil.rmtree('licenses')
-
-logger.info('Removing jinja2 macros')
-shutil.rmtree('macros')
+move_doc_files("{{cookiecutter.docs_tool}}")
+tidy_up()
