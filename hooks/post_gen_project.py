@@ -40,4 +40,3 @@ def tidy_up(temp_folders=ALL_TEMP_FOLDERS):
 if __name__ == '__main__':
     move_doc_files("{{cookiecutter.docs_tool}}")
     tidy_up()
-
