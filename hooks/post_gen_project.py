@@ -2,27 +2,28 @@
 # -*- coding: utf-8 -*-
 
 import logging
+import os
+import shutil
+
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger('post_gen_project')
 
-import shutil
-import os
-
-ROOT = os.getcwd()
 DOC_SOURCES = 'doc_sources'
-DOCS = 'docs'
+ALL_TEMP_FOLDERS = [DOC_SOURCES, 'licenses', 'macros']
 DOC_TYPE_FILES_MAP = {
     'mkdocs': ['index.md', '/mkdocs.yml'],
     'sphinx': ['conf.py', 'index.rst', 'make.bat', 'Makefile']
 }
 
-def move_doc_files(which):
+def move_doc_files(which, map_=DOC_TYPE_FILES_MAP, doc_sources=DOC_SOURCES):
+    root = os.getcwd()
+    docs = 'docs'
     logger.info('Initializing docs for %s' % which)
-    if not os.path.exists(DOCS):
-        os.mkdir(DOCS)
-    for item in DOC_TYPE_FILES_MAP[which]:
-        dst, name = (ROOT, item[1:]) if item.startswith('/') else (DOCS, item)
-        src_path = os.path.join(DOC_SOURCES, which, name)
+    if not os.path.exists(docs):
+        os.mkdir(docs)
+    for item in map_[which]:
+        dst, name = (root, item[1:]) if item.startswith('/') else (docs, item)
+        src_path = os.path.join(doc_sources, which, name)
         dst_path = os.path.join(dst, name)
         logger.info('Moving %s to %s.' % (src_path, dst_path))
         if os.path.exists(dst_path):
@@ -30,10 +31,12 @@ def move_doc_files(which):
         os.rename(src_path, dst_path)
 
 
-def tidy_up():
-    for dir in [DOC_SOURCES, 'licenses', 'macros']:
-        logger.info("Remove temporary folder: %s" % dir)
-        shutil.rmtree(dir)
+def tidy_up(temp_folders=ALL_TEMP_FOLDERS):
+    for folder in temp_folders:
+        logger.info("Remove temporary folder: %s" % folder)
+        shutil.rmtree(folder)
+
 
 move_doc_files("{{cookiecutter.docs_tool}}")
 tidy_up()
+
