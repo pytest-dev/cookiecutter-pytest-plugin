@@ -18,14 +18,14 @@ DOC_TYPE_FILES_MAP = {
 def move_doc_files(which, map_=DOC_TYPE_FILES_MAP, doc_sources=DOC_SOURCES):
     root = os.getcwd()
     docs = 'docs'
-    logger.info('Initializing docs for %s' % which)
+    logger.info('Initializing docs for %s', which)
     if not os.path.exists(docs):
         os.mkdir(docs)
     for item in map_[which]:
         dst, name = (root, item[1:]) if item.startswith('/') else (docs, item)
         src_path = os.path.join(doc_sources, which, name)
         dst_path = os.path.join(dst, name)
-        logger.info('Moving %s to %s.' % (src_path, dst_path))
+        logger.info('Moving %s to %s.', src_path, dst_path)
         if os.path.exists(dst_path):
             os.unlink(dst_path)
         os.rename(src_path, dst_path)
@@ -33,7 +33,7 @@ def move_doc_files(which, map_=DOC_TYPE_FILES_MAP, doc_sources=DOC_SOURCES):
 
 def tidy_up(temp_folders=ALL_TEMP_FOLDERS):
     for folder in temp_folders:
-        logger.info("Remove temporary folder: %s" % folder)
+        logger.info("Remove temporary folder: %s", folder)
         shutil.rmtree(folder)
 
 
