@@ -15,7 +15,10 @@ DOC_TYPE_FILES_MAP = {
     'sphinx': ['conf.py', 'index.rst', 'make.bat', 'Makefile']
 }
 
+
 def move_doc_files(which, map_=DOC_TYPE_FILES_MAP, doc_sources=DOC_SOURCES):
+    if which == 'none':
+        return
     root = os.getcwd()
     docs = 'docs'
     logger.info('Initializing docs for %s', which)
