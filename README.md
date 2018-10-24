@@ -115,7 +115,7 @@ Code of Conduct].
 ## License
 
 Distributed under the terms of the [MIT license], Cookiecutter pytest
-Plugin is free and open source software
+Plugin is free and open source software.
 
 [![OSI certified][osi_certified]][OSI]
 
