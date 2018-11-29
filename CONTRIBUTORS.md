@@ -21,6 +21,7 @@ Pull Requests and Patches
 - Omar K. ([@omarkohl])
 - Pedro Algarvio ([@s0undt3ch])
 - Tomasz Kontusz ([@ktosiek])
+- Stéphane Wirtel ([@matrixise])
 
 Bug Reports and Suggestions
 ---------------------------
@@ -43,3 +44,4 @@ Bug Reports and Suggestions
 [@omarkohl]: https://github.com/omarkohl
 [@pelme]: https://github.com/pelme
 [@s0undt3ch]: https://github.com/s0undt3ch
+[@matrixise]: https://github.com/matrixise
