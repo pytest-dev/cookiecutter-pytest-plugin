@@ -26,6 +26,7 @@ full_name [Raphael Pierzina]: Andreas Pelme
 email [raphael@hackebrot.de]: andreas@pelme.se
 github_username [hackebrot]: pelme
 plugin_name [foobar]: awesome
+module_name [awesome]: awesome
 short_description [A simple plugin to use with pytest]:
 version [0.1.0]:
 pytest_version [2.9.1]:
