@@ -22,6 +22,7 @@ Pull Requests and Patches
 - Pedro Algarvio ([@s0undt3ch])
 - Tomasz Kontusz ([@ktosiek])
 - Stéphane Wirtel ([@matrixise])
+- Yash Todi ([@yashtodi94])
 
 Bug Reports and Suggestions
 ---------------------------
@@ -38,10 +39,11 @@ Bug Reports and Suggestions
 [@hugovk]: https://github.com/hugovk
 [@ktosiek]: https://github.com/ktosiek
 [@luzfcb]: https://github.com/luzfcb
+[@matrixise]: https://github.com/matrixise
 [@miketheman]: https://github.com/miketheman
 [@nicoddemus]: https://github.com/nicoddemus
 [@obestwalter]: https://github.com/obestwalter
 [@omarkohl]: https://github.com/omarkohl
 [@pelme]: https://github.com/pelme
 [@s0undt3ch]: https://github.com/s0undt3ch
-[@matrixise]: https://github.com/matrixise
+[@yashtodi94]: https://github.com/yashtodi94
