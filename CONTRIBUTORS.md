@@ -25,6 +25,7 @@ Pull Requests and Patches
 - Stéphane Wirtel ([@matrixise])
 - Tomasz Kontusz ([@ktosiek])
 - Yash Todi ([@yashtodi94])
+- cclauss ([@cclauss])
 
 Bug Reports and Suggestions
 ---------------------------
@@ -38,6 +39,7 @@ Bug Reports and Suggestions
 [@The-Compiler]: https://github.com/The-Compiler
 [@abusalimov]: https://github.com/abusalimov
 [@adamchainz]: https://github.com/adamchainz
+[@cclauss]: https://github.com/cclauss
 [@hackebrot]: https://github.com/hackebrot
 [@hugovk]: https://github.com/hugovk
 [@ktosiek]: https://github.com/ktosiek
