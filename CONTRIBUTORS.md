@@ -21,6 +21,7 @@ Pull Requests and Patches
 - Oliver Bestwalter ([@obestwalter])
 - Omar K. ([@omarkohl])
 - Pedro Algarvio ([@s0undt3ch])
+- Radu Ciorba ([@rciorba])
 - Stéphane Wirtel ([@matrixise])
 - Tomasz Kontusz ([@ktosiek])
 - Yash Todi ([@yashtodi94])
@@ -47,5 +48,6 @@ Bug Reports and Suggestions
 [@obestwalter]: https://github.com/obestwalter
 [@omarkohl]: https://github.com/omarkohl
 [@pelme]: https://github.com/pelme
+[@rciorba]: https://github.com/rciorba
 [@s0undt3ch]: https://github.com/s0undt3ch
 [@yashtodi94]: https://github.com/yashtodi94
