@@ -13,6 +13,7 @@ Pull Requests and Patches
 - Andreas Pelme ([@pelme])
 - Benoit Brayer ([@M0dM])
 - Bruno Oliveira ([@nicoddemus])
+- Dmitry Dygalo ([@Stranger6667])
 - Eldar Abusalimov ([@abusalimov])
 - Florian Bruhin ([@The-Compiler])
 - Fábio C. Barrionuevo da Luz ([@luzfcb])
@@ -20,8 +21,8 @@ Pull Requests and Patches
 - Oliver Bestwalter ([@obestwalter])
 - Omar K. ([@omarkohl])
 - Pedro Algarvio ([@s0undt3ch])
-- Tomasz Kontusz ([@ktosiek])
 - Stéphane Wirtel ([@matrixise])
+- Tomasz Kontusz ([@ktosiek])
 - Yash Todi ([@yashtodi94])
 
 Bug Reports and Suggestions
@@ -32,6 +33,7 @@ Bug Reports and Suggestions
 
 [@M0dM]: https://github.com/M0dM
 [@RibeiroAna]: https://github.com/RibeiroAna
+[@Stranger6667]: https://github.com/Stranger6667
 [@The-Compiler]: https://github.com/The-Compiler
 [@abusalimov]: https://github.com/abusalimov
 [@adamchainz]: https://github.com/adamchainz
