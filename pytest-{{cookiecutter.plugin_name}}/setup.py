@@ -23,7 +23,7 @@ setup(
     description='{{cookiecutter.short_description}}',
     long_description=read('README.rst'),
     py_modules=['pytest_{{cookiecutter.module_name}}'],
-    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*',
+    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*',
     install_requires=['pytest>={{cookiecutter.pytest_version}}'],
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -34,7 +34,6 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
