@@ -17,7 +17,7 @@ Pull Requests and Patches
 - Eldar Abusalimov ([@abusalimov])
 - Florian Bruhin ([@The-Compiler])
 - Fábio C. Barrionuevo da Luz ([@luzfcb])
-- Hugo ([@hugovk])
+- Hugo van Kemenade ([@hugovk])
 - Oliver Bestwalter ([@obestwalter])
 - Omar K. ([@omarkohl])
 - Pedro Algarvio ([@s0undt3ch])

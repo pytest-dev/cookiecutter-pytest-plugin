@@ -4,10 +4,6 @@ language: python
 
 matrix:
     include:
-      - python: 2.7
-        env: TOX_ENV=py27
-      - python: 3.4
-        env: TOX_ENV=py34
       - python: 3.5
         env: TOX_ENV=py35
       - python: 3.6
@@ -15,8 +11,8 @@ matrix:
       - python: 3.7
         env: TOX_ENV=py37
         dist: xenial  # required for Python >= 3.7 (travis-ci/travis-ci#9069)
-      - python: pypy
-        env: TOX_ENV=pypy
+      - python: pypy3
+        env: TOX_ENV=pypy3
 
 install:
   - pip install tox
