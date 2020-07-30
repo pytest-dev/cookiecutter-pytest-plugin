@@ -25,6 +25,7 @@ Pull Requests and Patches
 - Stéphane Wirtel ([@matrixise])
 - Tomasz Kontusz ([@ktosiek])
 - Yash Todi ([@yashtodi94])
+- Yukihiko Shinoda ([@yukihiko-shinoda])
 - cclauss ([@cclauss])
 
 Bug Reports and Suggestions
@@ -53,3 +54,4 @@ Bug Reports and Suggestions
 [@rciorba]: https://github.com/rciorba
 [@s0undt3ch]: https://github.com/s0undt3ch
 [@yashtodi94]: https://github.com/yashtodi94
+[@yukihiko-shinoda]: https://github.com/yukihiko-shinoda
