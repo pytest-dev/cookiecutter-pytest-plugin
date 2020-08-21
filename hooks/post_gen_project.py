@@ -4,6 +4,7 @@
 import logging
 import os
 import shutil
+import sys
 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger("post_gen_project")
@@ -44,7 +45,29 @@ def remove_temp_folders(temp_folders):
         logger.info("Remove temporary folder: %s", folder)
         shutil.rmtree(folder)
 
+def apply_readme_file_extension(extension):
+    if extension.endswith("(.rst)"):
+        extension = ".rst"
+    elif extension.endswith("(.md)"):
+        extension = ".md"
+    else:
+        logger.warning("README file extension unknown: %s", extension)
+        sys.exit(1)
+
+    readme_path = os.path.join(
+        os.getcwd(),
+        "README.template"
+    )
+
+    if os.path.exists(readme_path):
+        new_path = os.path.join(
+            os.getcwd(),
+            "README" + extension
+        )
+        os.rename(readme_path, new_path)
+
 
 if __name__ == "__main__":
+    apply_readme_file_extension("{{cookiecutter.readme_format}}")
     move_docs_files("{{cookiecutter.docs_tool}}", DOCS_FILES_BY_TOOL, DOCS_SOURCES)
     remove_temp_folders(ALL_TEMP_FOLDERS)
