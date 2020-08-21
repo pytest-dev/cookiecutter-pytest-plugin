@@ -18,5 +18,9 @@
         "GNU GPL v3.0",
         "Apache Software License 2.0",
         "Mozilla Public License 2.0"
+    ],
+    "readme_format": [
+        "reStructred Text (.rst)",
+        "Markdown (.md)"
     ]
 }
