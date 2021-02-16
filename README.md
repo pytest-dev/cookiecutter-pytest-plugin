@@ -52,8 +52,11 @@ pytest-awesome/
 ├── docs
 │   └── index.md
 ├── mkdocs.yml
-├── pytest_awesome.py
 ├── setup.py
+├── src
+│   └── pytest_awesome
+│       ├── __init__.py
+│       └── plugin.py
 ├── tests
 │   ├── conftest.py
 │   └── test_awesome.py

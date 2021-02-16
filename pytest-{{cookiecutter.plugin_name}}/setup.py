@@ -3,6 +3,7 @@
 
 import os
 import codecs
+from setuptools import find_packages
 from setuptools import setup
 
 
@@ -22,9 +23,10 @@ setup(
     url='https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}',
     description='{{cookiecutter.short_description}}',
     long_description=read('README.rst'),
-    py_modules=['pytest_{{cookiecutter.module_name}}'],
     python_requires='>=3.5',
     install_requires=['pytest>={{cookiecutter.pytest_version}}'],
+    packages=find_packages(where='src'),
+    package_dir={'': 'src'},
     classifiers=[
         'Development Status :: 4 - Beta',
         'Framework :: Pytest',
@@ -54,7 +56,7 @@ setup(
     ],
     entry_points={
         'pytest11': [
-            '{{cookiecutter.plugin_name}} = pytest_{{cookiecutter.module_name}}',
+            '{{cookiecutter.plugin_name}} = pytest_{{cookiecutter.module_name}}.plugin',
         ],
     },
 )
