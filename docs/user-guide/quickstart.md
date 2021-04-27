@@ -54,7 +54,7 @@ pytest-awesome/
 ├── LICENSE
 ├── README.rst
 ├── pytest_awesome.py
-├── setup.py
+├── pyproject.toml
 ├── tests
 │   ├── conftest.py
 │   └── test_awesome.py

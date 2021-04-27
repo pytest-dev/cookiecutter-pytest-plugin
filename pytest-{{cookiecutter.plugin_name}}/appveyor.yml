@@ -21,16 +21,17 @@ init:
 
 install:
   - "%PYTHON%/Scripts/easy_install -U pip"
+  - "%PYTHON%/Scripts/pip install poetry"
   - "%PYTHON%/Scripts/pip install tox"
   - "%PYTHON%/Scripts/pip install wheel"
 
-build: false  # Not a C# project, build stuff at the test step instead.
+build: 
+  - "%PYTHON%/Scripts/poetry build"
 
 test_script:
   - "%PYTHON%/Scripts/tox -e %TOX_ENV%"
 
 after_test:
-  - "%PYTHON%/python setup.py bdist_wheel"
   - ps: "ls dist"
 
 artifacts:

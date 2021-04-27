@@ -26,7 +26,7 @@ full_name [Raphael Pierzina]: Andreas Pelme
 email [raphael@hackebrot.de]: andreas@pelme.se
 github_username [hackebrot]: pelme
 plugin_name [foobar]: awesome
-module_name [awesome]: awesome
+module_name [awesome]: mymodule
 short_description [A simple plugin to use with pytest]:
 version [0.1.0]:
 pytest_version [2.9.1]:
@@ -36,10 +36,21 @@ Select docs_tool:
 3 - none
 Choose from 1, 2, 3 [1]: 1
 Select license:
-1 - MIT
-2 - BSD-3
-3 - GNU GPL v3.0
-Choose from 1, 2, 3 [1]: 2
+1 - Apache-2.0
+2 - BSD-2-Clause
+3 - BSD-3-Clause
+4 - BSD-4-Clause
+5 - GPL-2.0-only
+6 - GPL-2.0-or-later
+7 - GPL-3.0-only
+8 - GPL-3.0-or-later
+9 - LGPL-2.1-only
+10 - LGPL-2.1-or-later
+11 - LGPL-3.0-only
+12 - LGPL-3.0-or-later
+13 - MIT
+14 - Proprietary
+Choose from 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 [1]:
 INFO:post_gen_project:Moving files for mkdocs.
 ```
 
@@ -52,8 +63,10 @@ pytest-awesome/
 ├── docs
 │   └── index.md
 ├── mkdocs.yml
-├── pytest_awesome.py
-├── setup.py
+├── pyproject.toml
+├── mymodule
+│   ├── __init__.py
+│   └── plugin.py
 ├── tests
 │   ├── conftest.py
 │   └── test_awesome.py
@@ -63,7 +76,7 @@ pytest-awesome/
 
 ## Features
 
-- Installable [PyPI] package featuring a `setup.py`.
+- Installable [Poetry](https://python-poetry.org/) package featuring a `pyproject.toml`.
 - Test suite running [tox] and [pytest] that makes sure your plugin is working
   as expected
 - Working example code for a fixture, a cli option, as well as a pytest.ini
@@ -132,6 +145,7 @@ Plugin is free and open source software.
   [pytest]: https://github.com/pytest-dev/pytest
   [PyPI]: https://pypi.org/project
   [tox]: https://tox.readthedocs.io/en/latest/
+  [Poetry]: https://python-poetry.org/
   [Submit a Plugin]: https://docs.pytest.org/en/latest/contributing.html#submitting-plugins-to-pytest-dev
   [pytest hook reference]: https://docs.pytest.org/en/latest/writing_plugins.html#pytest-hook-reference
   [MIT license]: http://opensource.org/licenses/MIT

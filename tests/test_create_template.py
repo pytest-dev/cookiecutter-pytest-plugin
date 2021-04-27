@@ -26,13 +26,13 @@ def run_tox(plugin):
 
 def test_run_cookiecutter_and_plugin_tests(cookies):
     """Create a new plugin via cookiecutter and run its tests."""
-    result = cookies.bake(extra_context={'plugin_name': 'foo-bar'})
+    result = cookies.bake(extra_context={'plugin_name': 'foo-bar', 'module_name': 'mymodule'})
 
     assert result.exit_code == 0
     assert result.exception is None
     assert result.project.basename == 'pytest-foo-bar'
     assert result.project.isdir()
-    assert result.project.join('pytest_foo_bar.py').isfile()
-    assert result.project.join('tests', 'test_foo_bar.py').isfile()
+    assert result.project.join('mymodule', 'plugin.py').isfile()
+    assert result.project.join('tests', 'test_mymodule.py').isfile()
 
     run_tox(str(result.project))

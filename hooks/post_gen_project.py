@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger("post_gen_project")
 
 DOCS_SOURCES = "docs_sources"
-ALL_TEMP_FOLDERS = [DOCS_SOURCES, "licenses", "macros"]
+ALL_TEMP_FOLDERS = [DOCS_SOURCES, "macros"]
 DOCS_FILES_BY_TOOL = {
     "mkdocs": ["index.md", "/mkdocs.yml"],
     "sphinx": ["conf.py", "index.rst", "make.bat", "Makefile"],

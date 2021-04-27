@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "pytest-{{cookiecutter.plugin_name}}"
+version = "{{cookiecutter.version}}"
+description = "{{cookiecutter.short_description}}"
+authors = ["{{cookiecutter.full_name}} <{{cookiecutter.email}}>"]
+license = "{{cookiecutter.license}}"
+readme = "README.rst"
+homepage = "https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}"
+repository = "https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}"
+{% if cookiecutter.module_name != "cookiecutter.plugin_name|lower|replace('-', '_')" -%}
+packages = [
+    { include = "{{cookiecutter.module_name}}" },
+]
+{%- endif %}
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}/issues"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+pytest = "^{{cookiecutter.pytest_version}}"
+
+[tool.poetry.dev-dependencies]
+pytest = "^{{cookiecutter.pytest_version}}"
+flake8 = "^3.7"
+{% if cookiecutter.docs_tool == "mkdocs" -%}
+mkdocs = "^1.1.2"
+{%- elif cookiecutter.docs_tool == "sphinx" -%}
+mkdocs = "^3.5.4"
+{%- endif %}
+
+[tool.poetry.plugins."pytest11"]
+"{{cookiecutter.plugin_name}}" = "{{cookiecutter.module_name}}.plugin"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
