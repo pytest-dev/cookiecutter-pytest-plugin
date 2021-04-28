@@ -12,6 +12,9 @@ packages = [
     { include = "{{cookiecutter.module_name}}" },
 ]
 {%- endif %}
+classifiers = [
+    "Framework :: Pytest",
+]
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}/issues"
