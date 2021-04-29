@@ -21,7 +21,7 @@ def run_tox(plugin):
             '-e', 'py'
         ])
     except subprocess.CalledProcessError as e:
-        pytest.fail(e)
+        pytest.fail(str(e))
 
 
 def test_run_cookiecutter_and_plugin_tests(cookies):
