@@ -29,7 +29,7 @@ flake8 = "^3.7"
 {% if cookiecutter.docs_tool == "mkdocs" -%}
 mkdocs = "^1.1.2"
 {%- elif cookiecutter.docs_tool == "sphinx" -%}
-mkdocs = "^3.5.4"
+sphinx = "^3.5.4"
 {%- endif %}
 
 [tool.poetry.plugins."pytest11"]
