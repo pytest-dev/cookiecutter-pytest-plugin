@@ -17,11 +17,6 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        environment:
-          - "py36"
-          - "py37"
-          - "py38"
-
         include:
           - environment: "py36"
             python: "3.6"
