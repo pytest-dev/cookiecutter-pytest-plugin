@@ -68,7 +68,7 @@ pytest-awesome/
   option
 - Comprehensive `README.rst` file that contains useful information about your
   plugin
-- Continuous integration configuration for [Travis CI] and [AppVeyor]
+- Continuous integration configuration for [AppVeyor]
 - Optional documentation with either [Sphinx] or [MkDocs]
 - Choose from several licenses, such as [MIT], [BSD-3], [Apache v2.0], [GNU GPL
   v3.0], or [MPL v2.0]
