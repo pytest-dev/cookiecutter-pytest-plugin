@@ -68,7 +68,7 @@ pytest-awesome/
   option
 - Comprehensive `README.rst` file that contains useful information about your
   plugin
-- Continuous integration configuration for [Travis CI] and [AppVeyor]
+- Continuous integration configuration for [AppVeyor]
 - Optional documentation with either [Sphinx] or [MkDocs]
 - Choose from several licenses, such as [MIT], [BSD-3], [Apache v2.0], [GNU GPL
   v3.0], or [MPL v2.0]
@@ -137,7 +137,6 @@ Plugin is free and open source software.
   [BSD-3]: http://opensource.org/licenses/BSD-3-Clause
   [GNU GPL v3.0]: http://www.gnu.org/licenses/gpl-3.0.txt
   [Apache v2.0]: http://www.apache.org/licenses/LICENSE-2.0
-  [Travis CI]: https://travis-ci.com/
   [AppVeyor]: http://www.appveyor.com/
   [PyPA Code of Conduct]: https://www.pypa.io/en/latest/code-of-conduct/
   [Shortbread]: https://github.com/audreyr/cookiecutter/releases/tag/1.4.0
