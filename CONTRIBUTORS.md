@@ -27,6 +27,7 @@ Pull Requests and Patches
 - Yash Todi ([@yashtodi94])
 - Yukihiko Shinoda ([@yukihiko-shinoda])
 - cclauss ([@cclauss])
+- ronnie-llamado ([@ronnie-llamado])
 
 Bug Reports and Suggestions
 ---------------------------
@@ -55,3 +56,4 @@ Bug Reports and Suggestions
 [@s0undt3ch]: https://github.com/s0undt3ch
 [@yashtodi94]: https://github.com/yashtodi94
 [@yukihiko-shinoda]: https://github.com/yukihiko-shinoda
+[@ronnie-llamado]: https://github.com/ronnie-llamado
