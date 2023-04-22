@@ -48,3 +48,12 @@ Plugin is free and open source software
 [documentation]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/?badge=latest (Documentation Status)
 [MIT license]: http://opensource.org/licenses/MIT
 [file an issue]: https://github.com/pytest-dev/cookiecutter-pytest-plugin/issues
+
+
+Code of Conduct
+===============
+
+This repository is being maintained by the @pytest-dev organization. Please reference the pytest-dev [code of conduct].
+
+[Code of Conduct]: https://github.com/pytest-dev/pytest/blob/main/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct
+
