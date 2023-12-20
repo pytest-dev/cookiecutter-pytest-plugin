@@ -21,7 +21,7 @@ def test_bar_fixture(testdir):
         '*::test_sth PASSED*',
     ])
 
-    # make sure that that we get a '0' exit code for the testsuite
+    # make sure that we get a '0' exit code for the testsuite
     assert result.ret == 0
 
 
@@ -60,5 +60,5 @@ def test_hello_ini_setting(testdir):
         '*::test_hello_world PASSED*',
     ])
 
-    # make sure that that we get a '0' exit code for the testsuite
+    # make sure that we get a '0' exit code for the testsuite
     assert result.ret == 0
