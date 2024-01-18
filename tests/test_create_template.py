@@ -30,7 +30,8 @@ def test_run_cookiecutter_and_plugin_tests(cookies):
     assert result.exception is None
     assert result.project.basename == 'pytest-foo-bar'
     assert result.project.isdir()
-    assert result.project.join('pytest_foo_bar.py').isfile()
+    assert result.project.join('src', 'pytest_foo_bar', '__init__.py').isfile()
+    assert result.project.join('src', 'pytest_foo_bar', 'plugin.py').isfile()
     assert result.project.join('tests', 'test_foo_bar.py').isfile()
 
     run_tox(str(result.project))
