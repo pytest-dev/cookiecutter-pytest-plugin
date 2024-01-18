@@ -1,14 +1,14 @@
-def test_bar_fixture(testdir):
+def test_bar_fixture(pytester):
     """Make sure that pytest accepts our fixture."""
 
     # create a temporary pytest test module
-    testdir.makepyfile("""
+    pytester.makepyfile("""
         def test_sth(bar):
             assert bar == "europython2015"
     """)
 
     # run pytest with the following cmd args
-    result = testdir.runpytest(
+    result = pytester.runpytest(
         '--foo=europython2015',
         '-v'
     )
@@ -22,8 +22,8 @@ def test_bar_fixture(testdir):
     assert result.ret == 0
 
 
-def test_help_message(testdir):
-    result = testdir.runpytest(
+def test_help_message(pytester):
+    result = pytester.runpytest(
         '--help',
     )
     # fnmatch_lines does an assertion internally
@@ -33,13 +33,13 @@ def test_help_message(testdir):
     ])
 
 
-def test_hello_ini_setting(testdir):
-    testdir.makeini("""
+def test_hello_ini_setting(pytester):
+    pytester.makeini("""
         [pytest]
         HELLO = world
     """)
 
-    testdir.makepyfile("""
+    pytester.makepyfile("""
         import pytest
 
         @pytest.fixture
@@ -50,7 +50,7 @@ def test_hello_ini_setting(testdir):
             assert hello == 'world'
     """)
 
-    result = testdir.runpytest('-v')
+    result = pytester.runpytest('-v')
 
     # fnmatch_lines does an assertion internally
     result.stdout.fnmatch_lines([
