@@ -36,7 +36,7 @@ Choose from 1, 2, 3 [1]: 1
 Select license:
 1 - MIT
 2 - BSD-3
-3 - GNU GPL v3.0
+3 - GNU GPL v3.0+
 Choose from 1, 2, 3 [1]: 2
 INFO:post_gen_project:Moving files for mkdocs.
 ```
@@ -71,7 +71,7 @@ pytest-awesome/
 - Continuous integration configuration for [AppVeyor]
 - Optional documentation with either [Sphinx] or [MkDocs]
 - Choose from several licenses, such as [MIT], [BSD-3], [Apache v2.0], [GNU GPL
-  v3.0], or [MPL v2.0]
+  v3.0+], or [MPL v2.0]
 
 ## Requirements to Submit a Plugin
 
@@ -135,7 +135,7 @@ Plugin is free and open source software.
   [MIT]: http://opensource.org/licenses/MIT
   [MPL v2.0]: https://www.mozilla.org/media/MPL/2.0/index.txt
   [BSD-3]: http://opensource.org/licenses/BSD-3-Clause
-  [GNU GPL v3.0]: http://www.gnu.org/licenses/gpl-3.0.txt
+  [GNU GPL v3.0+]: http://www.gnu.org/licenses/gpl-3.0.txt
   [Apache v2.0]: http://www.apache.org/licenses/LICENSE-2.0
   [AppVeyor]: http://www.appveyor.com/
   [PyPA Code of Conduct]: https://www.pypa.io/en/latest/code-of-conduct/
