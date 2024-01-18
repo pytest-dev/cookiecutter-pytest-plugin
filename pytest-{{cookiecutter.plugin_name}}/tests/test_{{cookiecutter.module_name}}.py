@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 def test_bar_fixture(testdir):
     """Make sure that pytest accepts our fixture."""
 
