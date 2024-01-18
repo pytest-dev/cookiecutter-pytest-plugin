@@ -14,9 +14,9 @@ def run_tox(plugin):
     try:
         subprocess.check_call([
             'tox',
-            plugin,
+            '--workdir', plugin,
             '-c', os.path.join(plugin, 'tox.ini'),
-            '-e', 'py'
+            '-e', 'py',
         ])
     except subprocess.CalledProcessError as e:
         pytest.fail(str(e))
