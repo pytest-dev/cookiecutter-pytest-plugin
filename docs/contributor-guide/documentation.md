@@ -18,4 +18,4 @@ The plugin source code can always use more documentation.
 
 Please add doc strings and regular Python comments to the actual plugin code.
 
-  [jinja2 comments]: http://jinja.pocoo.org/docs/dev/templates/#comments
+  [jinja2 comments]: https://jinja.palletsprojects.com/en/3.0.x/templates/#comments

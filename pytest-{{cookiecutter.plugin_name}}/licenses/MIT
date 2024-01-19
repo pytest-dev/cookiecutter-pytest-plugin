@@ -1,4 +1,4 @@
-{#- source: http://opensource.org/licenses/MIT #}
+{#- source: https://opensource.org/licenses/MIT #}
 The MIT License (MIT)
 
 Copyright (c) {% now 'utc', '%Y' %} {{cookiecutter.full_name}}

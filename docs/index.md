@@ -46,7 +46,7 @@ Plugin is free and open source software
 [gitter]: https://gitter.im/pytest-dev/cookiecutter-pytest-plugin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge (Join Chat on Gitter.im)
 [docs_badge]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/badge/?version=latest
 [documentation]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/?badge=latest (Documentation Status)
-[MIT license]: http://opensource.org/licenses/MIT
+[MIT license]: https://opensource.org/licenses/MIT
 [file an issue]: https://github.com/pytest-dev/cookiecutter-pytest-plugin/issues
 
 
