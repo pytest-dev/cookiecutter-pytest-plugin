@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-#
 # pytest-{{cookiecutter.plugin_name}} documentation build configuration file, created by
 # sphinx-quickstart on Thu Oct  1 00:43:18 2015.
 #

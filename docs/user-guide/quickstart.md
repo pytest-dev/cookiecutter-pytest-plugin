@@ -53,11 +53,14 @@ Once you answered to the questions, Cookiecutter renders the the project:
 pytest-awesome/
 ├── LICENSE
 ├── README.rst
-├── pytest_awesome.py
-├── setup.py
+├── pyproject.toml
+├── src
+│   └── pytest_awesome
+│       ├── __init__.py
+│       └── plugin.py
 ├── tests
-│   ├── conftest.py
-│   └── test_awesome.py
+│   ├── conftest.py
+│   └── test_awesome.py
 └── tox.ini
 ```
 

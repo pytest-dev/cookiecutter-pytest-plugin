@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-
-"""
-test_create_template
---------------------
-"""
-
-
 import os
 import pytest
 import subprocess
@@ -16,12 +8,12 @@ def run_tox(plugin):
     try:
         subprocess.check_call([
             'tox',
-            plugin,
+            '--workdir', plugin,
             '-c', os.path.join(plugin, 'tox.ini'),
-            '-e', 'py'
+            '-e', 'py',
         ])
     except subprocess.CalledProcessError as e:
-        pytest.fail(e)
+        pytest.fail(str(e))
 
 
 def test_run_cookiecutter_and_plugin_tests(cookies):
@@ -30,9 +22,10 @@ def test_run_cookiecutter_and_plugin_tests(cookies):
 
     assert result.exit_code == 0
     assert result.exception is None
-    assert result.project.basename == 'pytest-foo-bar'
-    assert result.project.isdir()
-    assert result.project.join('pytest_foo_bar.py').isfile()
-    assert result.project.join('tests', 'test_foo_bar.py').isfile()
+    assert result.project_path.name == 'pytest-foo-bar'
+    assert result.project_path.is_dir()
+    assert result.project_path.joinpath('src', 'pytest_foo_bar', '__init__.py').is_file()
+    assert result.project_path.joinpath('src', 'pytest_foo_bar', 'plugin.py').is_file()
+    assert result.project_path.joinpath('tests', 'test_foo_bar.py').is_file()
 
-    run_tox(str(result.project))
+    run_tox(str(result.project_path))

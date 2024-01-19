@@ -47,21 +47,21 @@ There you go - you just created a minimal pytest plugin:
 pytest-awesome/
 ├── LICENSE
 ├── README.rst
-├── docs
-│   └── index.md
-├── mkdocs.yml
-├── pytest_awesome.py
-├── setup.py
+├── pyproject.toml
+├── src
+│   └── pytest_awesome
+│       ├── __init__.py
+│       └── plugin.py
 ├── tests
-│   ├── conftest.py
-│   └── test_awesome.py
+│   ├── conftest.py
+│   └── test_awesome.py
 └── tox.ini
 ```
 
 
 ## Features
 
-- Installable [PyPI] package featuring a `setup.py`.
+- Installable [PyPI] package featuring a `pyproject.toml`.
 - Test suite running [tox] and [pytest] that makes sure your plugin is working
   as expected
 - Working example code for a fixture, a cli option, as well as a pytest.ini
@@ -78,15 +78,13 @@ pytest-awesome/
 If you plan on submitting your plugin to the [pytest-dev organization] you need
 to meet the following requirements:
 
--   PyPI presence with a setup.py that contains a license, pytest-
+-   PyPI presence with a pyproject.toml that contains a license, pytest-
     prefixed, version number, authors, short and long description.
 -   a tox.ini for running tests using tox.
 -   a README describing how to use the plugin and on which platforms
     it runs.
--   a LICENSE file or equivalent containing the licensing information,
-    with matching info in setup.py.
--   an issue tracker unless you rather want to use the core pytest
-    issue tracker.
+-   a LICENSE file or equivalent containing the licensing information.
+-   an issue tracker
 
 Please see the official guidelines at [Submit a Plugin].
 
