@@ -68,7 +68,7 @@ pytest-awesome/
   option
 - Comprehensive `README.rst` file that contains useful information about your
   plugin
-- Continuous integration configuration for [AppVeyor]
+- Continuous integration configuration for [GitHub Actions]
 - Optional documentation with either [Sphinx] or [MkDocs]
 - Choose from several licenses, such as [MIT], [BSD-3], [Apache v2.0], [GNU GPL
   v3.0+], or [MPL v2.0]
@@ -135,7 +135,7 @@ Plugin is free and open source software.
   [BSD-3]: https://opensource.org/licenses/BSD-3-Clause
   [GNU GPL v3.0+]: https://www.gnu.org/licenses/gpl-3.0.txt
   [Apache v2.0]: https://www.apache.org/licenses/LICENSE-2.0
-  [AppVeyor]: https://www.appveyor.com/
+  [GitHub Actions]: https://docs.github.com/en/actions
   [PyPA Code of Conduct]: https://www.pypa.io/en/latest/code-of-conduct/
   [Shortbread]: https://github.com/audreyr/cookiecutter/releases/tag/1.4.0
   [osi_certified]: https://opensource.org/trademarks/osi-certified/web/osi-certified-120x100.png

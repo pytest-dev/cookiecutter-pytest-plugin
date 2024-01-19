@@ -10,9 +10,9 @@
     :target: https://pypi.org/project/pytest-{{cookiecutter.plugin_name}}
     :alt: Python versions
 
-.. image:: https://ci.appveyor.com/api/projects/status/github/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}?branch=master
-    :target: https://ci.appveyor.com/project/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}/branch/master
-    :alt: See Build Status on AppVeyor
+.. image:: https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}/actions/workflows/main.yml/badge.svg
+    :target: https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}/actions/workflows/main.yml
+    :alt: See Build Status on GitHub Actions
 
 {{cookiecutter.short_description}}
 
