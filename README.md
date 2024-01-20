@@ -68,7 +68,7 @@ pytest-awesome/
   option
 - Comprehensive `README.rst` file that contains useful information about your
   plugin
-- Continuous integration configuration for [AppVeyor]
+- Continuous integration configuration for [GitHub Actions]
 - Optional documentation with either [Sphinx] or [MkDocs]
 - Choose from several licenses, such as [MIT], [BSD-3], [Apache v2.0], [GNU GPL
   v3.0+], or [MPL v2.0]
@@ -126,16 +126,16 @@ Plugin is free and open source software.
   [tox]: https://tox.readthedocs.io/en/latest/
   [Submit a Plugin]: https://docs.pytest.org/en/latest/contributing.html#submitting-plugins-to-pytest-dev
   [pytest hook reference]: https://docs.pytest.org/en/latest/writing_plugins.html#pytest-hook-reference
-  [MIT license]: http://opensource.org/licenses/MIT
+  [MIT license]: https://opensource.org/licenses/MIT
   [file an issue]: https://github.com/pytest-dev/cookiecutter-pytest-plugin/issues
-  [Sphinx]: http://sphinx-doc.org/
-  [MkDocs]: http://www.mkdocs.org/
-  [MIT]: http://opensource.org/licenses/MIT
+  [Sphinx]: https://sphinx-doc.org/
+  [MkDocs]: https://www.mkdocs.org/
+  [MIT]: https://opensource.org/licenses/MIT
   [MPL v2.0]: https://www.mozilla.org/media/MPL/2.0/index.txt
-  [BSD-3]: http://opensource.org/licenses/BSD-3-Clause
-  [GNU GPL v3.0+]: http://www.gnu.org/licenses/gpl-3.0.txt
-  [Apache v2.0]: http://www.apache.org/licenses/LICENSE-2.0
-  [AppVeyor]: http://www.appveyor.com/
+  [BSD-3]: https://opensource.org/licenses/BSD-3-Clause
+  [GNU GPL v3.0+]: https://www.gnu.org/licenses/gpl-3.0.txt
+  [Apache v2.0]: https://www.apache.org/licenses/LICENSE-2.0
+  [GitHub Actions]: https://docs.github.com/en/actions
   [PyPA Code of Conduct]: https://www.pypa.io/en/latest/code-of-conduct/
   [Shortbread]: https://github.com/audreyr/cookiecutter/releases/tag/1.4.0
   [osi_certified]: https://opensource.org/trademarks/osi-certified/web/osi-certified-120x100.png
