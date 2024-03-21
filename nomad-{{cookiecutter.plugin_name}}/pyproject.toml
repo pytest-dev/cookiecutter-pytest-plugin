@@ -4,9 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 classifiers = [
-    "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "Topic :: Software Development :: Testing",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3.8",
@@ -14,9 +12,6 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: Implementation :: CPython",
-    "Programming Language :: Python :: Implementation :: PyPy",
     {% if cookiecutter.license == "MIT" -%}
     "License :: OSI Approved :: MIT License",
     {%- elif cookiecutter.license == "BSD-3" -%}
@@ -41,6 +36,85 @@ maintainers = [
     { name = "{{cookiecutter.full_name}}", email = "{{cookiecutter.email}}" },
 ]
 license = { file = "LICENSE" }
-dependencies = ["nomad-lab"]
+dependencies = ["nomad-lab>=1.2.0"]
+
 [project.urls]
 Repository = "https://github.com/{{cookiecutter.github_username}}/nomad-{{cookiecutter.plugin_name}}"
+
+[project.optional-dependencies]
+dev = ['ruff>=0.3.0', 'pytest']
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+
+# Same as Black.
+line-length = 88
+indent-width = 4
+
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # isort
+    "I",
+    # pylint 
+    "PL",
+]
+
+ignore = [
+    "F403", # 'from module import *' used; unable to detect undefined names
+]
+
+fixable = ["ALL"]
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+# this is entirely optional, you can remove this if you wish to
+[tool.ruff.format]
+# use single quotes for strings.
+quote-style = "single"
+
+# indent with spaces, rather than tabs.
+indent-style = "space"
+
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+
+
+[tool.setuptools.packages.find]
+where = ["src/"]
+
+[tool.setuptools.package-data]
+nomad-{{cookiecutter.module_name}} = ['*/nomad_plugin.yaml']

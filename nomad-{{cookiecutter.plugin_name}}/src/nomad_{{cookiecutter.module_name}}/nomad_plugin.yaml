@@ -1,0 +1,7 @@
+plugin_type: "{{cookiecutter.variant}}"
+name: "{{cookiecutter.plugin_name}}"
+{% if cookiecutter.variant == "normalizer" -%}
+normalizer_class_name: "{{cookiecutter.module_name}}.ExampleNormalizer"
+{%- endif %}
+description: |
+  "{{cookiecutter.short_description}}"
