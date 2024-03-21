@@ -1,10 +1,10 @@
-site_name: cookiecutter-pytest-plugin
-site_description: Minimal Cookiecutter template for authoring pytest plugins.
-site_author: Raphael Pierzina
+site_name: cookiecutter-nomad-plugin
+site_description: Minimal Cookiecutter template for authoring nomad plugins.
+site_author: Ahmed Ilyas
 
 theme: readthedocs
 
-repo_url: https://github.com/pytest-dev/cookiecutter-pytest-plugin
+repo_url: todo
 
 pages:
 - Home: index.md

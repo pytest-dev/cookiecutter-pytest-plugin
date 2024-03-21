@@ -1,24 +1,9 @@
 [build-system]
-requires = [
-  "setuptools>=61.0.0",
-]
+requires = ["setuptools>=61.0.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pytest-{{cookiecutter.plugin_name}}"
-description = "{{cookiecutter.short_description}}"
-version = "{{cookiecutter.version}}"
-readme = "README.rst"
-requires-python = ">=3.8"
-authors = [
-    { name = "{{cookiecutter.full_name}}", email = "{{cookiecutter.email}}" },
-]
-maintainers = [
-    { name = "{{cookiecutter.full_name}}", email = "{{cookiecutter.email}}" },
-]
-license = {file = "LICENSE"}
 classifiers = [
-    "Framework :: Pytest",
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
     "Topic :: Software Development :: Testing",
@@ -44,10 +29,18 @@ classifiers = [
     "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
     {%- endif %}
 ]
-dependencies = [
-    "pytest>={{cookiecutter.pytest_version}}",
+name = "nomad-{{cookiecutter.plugin_name}}"
+description = "{{cookiecutter.short_description}}"
+version = "{{cookiecutter.version}}"
+readme = "README.rst"
+requires-python = ">=3.8"
+authors = [
+    { name = "{{cookiecutter.full_name}}", email = "{{cookiecutter.email}}" },
 ]
+maintainers = [
+    { name = "{{cookiecutter.full_name}}", email = "{{cookiecutter.email}}" },
+]
+license = { file = "LICENSE" }
+dependencies = ["nomad-lab"]
 [project.urls]
-Repository = "https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}"
-[project.entry-points.pytest11]
-django = "pytest_{{cookiecutter.module_name}}.plugin"
+Repository = "https://github.com/{{cookiecutter.github_username}}/nomad-{{cookiecutter.plugin_name}}"

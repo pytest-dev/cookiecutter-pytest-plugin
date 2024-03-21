@@ -1,22 +1,19 @@
 {
-    "full_name": "Raphael Pierzina",
-    "email": "raphael@hackebrot.de",
-    "github_username": "hackebrot",
+    "full_name": "John Doe",
+    "email": "john.doe@physik.hu-berlin.de",
+    "github_username": "foo",
     "plugin_name": "foobar",
     "module_name": "{{ cookiecutter.plugin_name|lower|replace('-', '_') }}",
-    "short_description": "A simple plugin to use with pytest",
+    "short_description": "Nomad example template",
     "version": "0.1.0",
-    "pytest_version": "6.2.0",
-    "docs_tool": [
-        "mkdocs",
-        "sphinx",
-        "none"
-    ],
     "license": [
         "MIT",
         "BSD-3",
         "GNU GPL v3.0+",
-        "Apache Software License 2.0",
-        "Mozilla Public License 2.0"
+        "Apache Software License 2.0"
+    ],
+    "variant": [
+        "schema",
+        "normalizer"
     ]
 }
