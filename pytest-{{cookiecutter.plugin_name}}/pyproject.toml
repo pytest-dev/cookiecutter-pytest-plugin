@@ -50,4 +50,4 @@ dependencies = [
 [project.urls]
 Repository = "https://github.com/{{cookiecutter.github_username}}/pytest-{{cookiecutter.plugin_name}}"
 [project.entry-points.pytest11]
-django = "pytest_{{cookiecutter.module_name}}.plugin"
+{{cookiecutter.plugin_name}} = "pytest_{{cookiecutter.module_name}}.plugin"
