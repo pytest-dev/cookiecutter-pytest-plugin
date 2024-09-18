@@ -3,10 +3,7 @@
 [![Documentation Status][docs_badge]][documentation]
 
 Minimal [Cookiecutter] template for authoring [pytest] plugins that help
-you to write better programs.
-
-> This template requires [Cookiecutter 1.4.0 "Shortbread"][Shortbread] or
-> higher
+you write better programs.
 
 ## Getting Started
 
